@@ -9,8 +9,8 @@ function calcular(tipo, valor){
             document.getElementById('resultado').value += valor
         }
         if( valor === '='){
-            let valorCampo = document.getElementById('resultado').value
-            console.log(valorCampo)
+            let valorCampo = eval(document.getElementById('resultado').value)
+            document.getElementById('resultado').value = valorCampo
         }
 
     } 
