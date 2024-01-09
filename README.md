@@ -32,4 +32,20 @@ Este é um projeto simples de uma calculadora web que fiz usando HTML, CSS e Jav
 Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Calculadora
+
 ```
+## Página web efeito parallax
+![Perfil](/Imagens/capa-parallax.gif)
+
+Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
+
+### Detalhes do Projeto
+
+- **Tecnologias Frontend:** HTML, CSS, Bootstrap
+- **Funcionalidades:** Uma página unica e simples, com efeito de posição de imagem
+
+Você pode ver o código do projeto aqui.
+```js
+https://github.com/DoughFernandes/MeusProjetos/tree/main/Efeito-Parallax
+```
+
