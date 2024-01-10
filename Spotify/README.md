@@ -33,4 +33,4 @@
 
 # PROJETO FINALIZADO ✅
 
-![spotify](/Spotify/imagens/spotify.gif)
+![spotify](/Spotify/imagens/Spotify.gif)
