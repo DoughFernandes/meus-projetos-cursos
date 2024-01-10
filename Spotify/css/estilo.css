@@ -59,8 +59,9 @@ nav.navbar-transparente{
     color: black;
 }
 .setas {
-    width: 30px;
-    background-color: rgb(246, 182, 212);
+    margin-top: 10%;
+    height: 10px;
+    width: 10px;
 }
 /* CONTEÚDOS SERVIÇOS **********************************************/
 #servicos{

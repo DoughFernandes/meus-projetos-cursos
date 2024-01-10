@@ -55,7 +55,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Efeito-Parallax
 
 ## Página web Spotify
 
-![Perfil](/Spotify/imagens/Spotify.gif)
+![Perfil](/Imagens/spotify.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
