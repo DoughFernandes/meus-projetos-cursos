@@ -55,7 +55,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Efeito-Parallax
 
 ## Página web Spotify
 
-![Perfil](/Imagens/spotify.gif)
+![Perfil](/Spotify/imagens/Spotify.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
@@ -85,4 +85,52 @@ Você pode ver o código do projeto aqui.
 
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/finans
+```
+
+## Página web Museu Nacional
+
+![Perfil](/Imagens/MuseuNacional.gif)
+
+Este é um projeto simples de uma página web que fiz usando HTML, CSS.
+### Detalhes do Projetos
+
+- **Tecnologias Frontend:** HTML, CSS
+- **Funcionalidades:** Uma página simples e demostrativa visual.
+
+Você pode ver o código do projeto aqui.
+
+```js
+https://github.com/DoughFernandes/MeusProjetos/tree/main/MuseuNacional
+```
+
+## Página web Chalé do zé
+
+![Perfil](/Imagens/Chale.gif)
+
+Este é um projeto simples de uma página web que fiz usando HTML, CSS.
+### Detalhes do Projetos
+
+- **Tecnologias Frontend:** HTML, CSS
+- **Funcionalidades:** Uma página simples e demostrativa visual.
+
+Você pode ver o código do projeto aqui.
+
+```js
+https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
+```
+
+## Página web noticias cidade
+
+![Perfil](/Imagens/Noticia.gif)
+
+Este é um projeto simples de um site web que fiz usando HTML, CSS.
+### Detalhes do Projetos
+
+- **Tecnologias Frontend:** HTML, CSS
+- **Funcionalidades:** Um site simples e demostrativa visual, interação entre páginas e links.
+
+Você pode ver o código do projeto aqui.
+
+```js
+https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 ```
