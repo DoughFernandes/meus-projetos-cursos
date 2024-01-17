@@ -5,14 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mata Mosquito</title>
     <link rel="stylesheet" href="Css/estilo.css">
+    <link rel="stylesheet" href="Css/estilosJS.css">
 
     <script src="javascript/index.js"></script>
 
 </head>
 <body onresize="ajusteDimensao()">
     
+    <div class="Painel">
+        <div class="Vida">
+            <img id="V1" src="/imagens/coracao_cheio.png" alt="coracao_vazio">
+            <img id="V2" src="/imagens/coracao_cheio.png" alt="coracao_vazio">
+            <img id="V3" src="/imagens/coracao_cheio.png" alt="coracao_vazio">
+        </div>
+
+        <div class="Conometro">Tempo restante: <span id="Cronometro"></span> </div>
+    </div>
+
     <script>
-        posicaoAleatoria()
+        document.getElementById('Cronometro').innerHTML = tempo // Para o cronometro aparcer assim que a página for carregada.
+
+
+        /* Chamar em um tempo determinado a funcão*/
+        let CriaMosquito = setInterval(function(){
+            posicaoAleatoria()
+        }, CriarMosquitoTempo)
     </script>
 </body>
 </html>
