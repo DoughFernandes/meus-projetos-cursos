@@ -3,7 +3,7 @@
 let altura = 0
 let largura = 0
 let vidas = 1
-let tempo = 30
+let tempo = 10
 let CriarMosquitoTempo = 1500
 
 /* Estrutura de Nivel **********************************************/
@@ -38,9 +38,10 @@ let Cronometro = setInterval(function() {
     tempo -= 1
 
     if (tempo < 0){
+        
+        window.location.href = 'Win.html'
         clearInterval(Cronometro) // Parar de executar função Cronometro na memoria
         clearInterval(CriarMosquito) // Parar de criar os mosquitos
-        window.location.href = 'Win.html'
 
     } else {
         document.getElementById('Cronometro').innerHTML = tempo // add ao HTML o cronometro
