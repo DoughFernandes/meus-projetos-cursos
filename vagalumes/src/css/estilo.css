@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.container{
+    height: 95%;
+    width: 95%;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+.Fireflies{
+    width: 5px;
+    height: 10px;
+    border-radius: 20px;
+    
+}
+#mouseRepelent{
+    transition: transform 0.3s ease-out;
+}
