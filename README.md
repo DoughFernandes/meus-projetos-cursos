@@ -18,6 +18,23 @@
 
 Olá! Aqui estão alguns dos projetos de programação nos quais trabalhei.
 
+## Vagalumes
+
+![Perfil](/Imagens/Vagalumes.gif)
+
+Este é um projeto simples de uma imagen animada que fiz usando HTML, CSS, JAVASCRIPT.
+### Detalhes do Projetos
+
+- **Tecnologias Frontend:** HTML, CSS
+- **Linguagem de Programação:** JAVASCRIPT
+- **Funcionalidades:** Uma imagen simples e demostrativa visual,Não a interação entre páginas e objetos na tela.
+
+Você pode ver o código do projeto aqui.
+
+```js
+https://github.com/DoughFernandes/MeusProjetos/tree/main/Vagalumes
+```
+
 ## Mata Mosquito
 
 ![Perfil](/Imagens/MataMosquito.gif)
