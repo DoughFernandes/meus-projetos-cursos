@@ -1,9 +1,25 @@
 .Fireflies2{
-    box-shadow: 0 0 20px 10px green;
-    background-color: green;
-    animation: curva 10s alternate infinite;
+    background-color: rgb(148, 250, 148);
+    width: 6px;
+    height: 5px;
+    border-radius: 200px;
+    animation: curva2 10s alternate infinite;
+    transition: transform 0.3s ease-out;
+    position: absolute;
 }
-@keyframes curva{
-    0% { transform: translate(-10px, -50px);}
-    100% { transform: translate(10px, -10px);}
+@keyframes curva2 {
+    0% { 
+        transform: translateX(10px)
+        translateY(34px);
+        box-shadow: 0 0 20px 15px rgb(48, 247, 48);
+    }
+    50% {
+        transform: rotate(10deg);
+        box-shadow: 0 0 10px 0px rgb(48, 247, 48);
+    }
+    100% {
+        transform: translateX(20px)
+        translateY(-10px);
+        box-shadow: 0 0 20px 15px rgb(48, 247, 48);
+    }
 }

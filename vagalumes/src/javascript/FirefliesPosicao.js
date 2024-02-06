@@ -1,5 +1,4 @@
 ajusteDimensao();
-addEstilo();
 
 function FirefliesPosicao(){
     let posicaoX = Math.floor(Math.random() * largura)
@@ -7,11 +6,11 @@ function FirefliesPosicao(){
     
     let vagalumesDiv = document.createElement('div')
 
-    vagalumesDiv.className = 'Fireflies ' + addEstilo()
+    vagalumesDiv.id = 'vagalumes'
+    vagalumesDiv.className = addEstilo()
     vagalumesDiv.style.top = posicaoY + 'px'
     vagalumesDiv.style.left = posicaoX + 'px'
     vagalumesDiv.style.position = 'absolute'
 
     document.body.appendChild(vagalumesDiv)
 }
-FirefliesPosicao()

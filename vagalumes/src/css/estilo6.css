@@ -1,9 +1,0 @@
-.Fireflies6{
-    box-shadow: 0 0 20px 10px red;
-    background-color: red;
-    animation: curva 10s alternate infinite;
-}
-@keyframes curva{
-    0% { transform: translate(30px, -80px)}
-    100% { transform: translate(10px, -1px)}
-}
