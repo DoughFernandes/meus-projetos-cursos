@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title>Orçamento pessoal</title>
 
 		<!-- Bootstrap início -->
@@ -55,14 +56,14 @@
 
       <div class="row mb-2">
         <div class="col-md-2">
-          <select class="form-control" id="ano" title="control">
+          <select class="form-control" id="ano" title="control1">
             <option value="">Ano</option>
             <option value="2024">2024</option>
           </select>
         </div>
 
         <div class="col-md-2">
-          <select class="form-control" id="mes" title="control">
+          <select class="form-control" id="mes" title="control2">
             <option value="">Mês</option>
             <option value="1">Janeiro</option>
             <option value="2">Fevereiro</option>
@@ -84,7 +85,7 @@
         </div>
 
         <div class="col-md-6">
-          <select class="form-control" id="tipo" title="control">
+          <select class="form-control" id="tipo" title="control3">
             <option value="">Tipo</option>
             <option value="1">Alimentação</option>
             <option value="2">Educação</option>
@@ -105,7 +106,7 @@
         </div>
 
         <div class="col-md-2 d-flex justify-content-end">
-          <button type="button" class="btn btn-primary" onclick="cadastrarDespesa()" title="control">
+          <button type="button" class="btn btn-primary" onclick="cadastrarDespesa()" title="button">
             <i class="fas fa-plus"></i>
           </button>
         </div>
@@ -116,7 +117,7 @@
     <div class="modal fade" id="modalRegistraDespesa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div id="moda_titulo_div">
+          <div id="modal_titulo_div">
             <h5 class="modal-title" id="modal_titulo"></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -124,7 +125,7 @@
           </div>
           <div class="modal-body" id="modal_conteudo"></div>
           <div class="modal-footer">
-            <button type="button" data-dismiss="modal" id="modal_btn">Voltal</button>
+            <button type="button" data-dismiss="modal" id="modal_btn">Voltar</button>
           </div>
         </div>
       </div>
