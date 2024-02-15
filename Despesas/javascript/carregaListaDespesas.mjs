@@ -3,18 +3,7 @@ function carregaListaDespesas() {
 	let despesas = Array()
 
 	despesas = bd.recuperarTodosRegistros() 
-
-	/*
-
-	<tr>
-		<td>15/03/2018</td>
-		<td>Alimentação</td>
-		<td>Compras do mês</td>
-		<td>444.75</td>
-	</tr>
-
-	*/
-
+	
 	let listaDespesas = document.getElementById("listaDespesas")
 
 	despesas.forEach(function(d){
@@ -42,6 +31,6 @@ function carregaListaDespesas() {
 		linha.insertCell(1).innerHTML = d.tipo
 		linha.insertCell(2).innerHTML = d.descricao
 		linha.insertCell(3).innerHTML = d.valor
-		console.log(d)
+		
 	})
  }
