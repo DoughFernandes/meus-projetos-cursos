@@ -18,7 +18,7 @@
 
 Olá! Aqui estão alguns dos projetos de programação nos quais trabalhei.
 
-## Vagalumes
+## Despesas
 
 ![Perfil](/Imagens/despesa.gif)
 
@@ -37,7 +37,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Despesa
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------->
 
-## Despesas
+## Vagalumes
 
 ![Perfil](/Imagens/Vagalumes.gif)
 
