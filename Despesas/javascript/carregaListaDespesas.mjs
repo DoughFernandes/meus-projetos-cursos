@@ -1,13 +1,13 @@
-function carregaListaDespesas() {
+function carregaListaDespesas(despesas = Array(), filtro = false) {
 
-	let despesas = Array()
+    if(despesas.length == 0 && filtro == false){
+		despesas = bd.recuperarTodosRegistros() 
+	}
 
-	despesas = bd.recuperarTodosRegistros() 
-	
 	let listaDespesas = document.getElementById("listaDespesas")
+    listaDespesas.innerHTML = ''
 
 	despesas.forEach(function(d){
-
 		//Criando a linha (tr)
 		var linha = listaDespesas.insertRow();
 
@@ -26,11 +26,24 @@ function carregaListaDespesas() {
 				break
 			case '5': d.tipo = 'Transporte'
 				break
-			
 		}
+
 		linha.insertCell(1).innerHTML = d.tipo
 		linha.insertCell(2).innerHTML = d.descricao
 		linha.insertCell(3).innerHTML = d.valor
-		
+
+		//Criar o botão de exclusão
+		let btn = document.createElement('button')
+		btn.className = 'btn btn-danger'
+		btn.innerHTML = '<i class="fa fa-times"  ></i>'
+		btn.id = `id_despesa_${d.id}`
+		btn.onclick = function(){
+			let id = this.id.replace('id_despesa_','')
+			
+			bd.remover(id)
+			window.location.reload()
+		}
+		linha.insertCell(4).append(btn)
 	})
+
  }
