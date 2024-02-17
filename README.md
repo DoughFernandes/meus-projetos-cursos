@@ -20,6 +20,25 @@ Olá! Aqui estão alguns dos projetos de programação nos quais trabalhei.
 
 ## Vagalumes
 
+![Perfil](/Imagens/despesa.gif)
+
+Este é um projeto simples de um formulario de despesa que fiz usando HTML, CSS, JAVASCRIPT, BOOTSTRAP.
+### Detalhes do Projetos
+
+- **Tecnologias Frontend:** HTML, CSS, BOOTSTRAP
+- **Linguagem de Programação:** JAVASCRIPT
+- **Funcionalidades:** Um formulario de Despesas,você pode cadastrar, consultar e excluir suas despesas e a interação entre páginas e objetos na tela.
+
+Você pode ver o código do projeto aqui.
+
+```js
+https://github.com/DoughFernandes/MeusProjetos/tree/main/Despesa
+```
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
+
+## Vagalumes
+
 ![Perfil](/Imagens/Vagalumes.gif)
 
 Este é um projeto simples de uma imagen animada que fiz usando HTML, CSS, JAVASCRIPT.
@@ -34,6 +53,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Vagalumes
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Mata Mosquito
 
@@ -51,6 +71,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/JogoMataMosquito
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Calculadora em JavaScript
 
@@ -69,6 +90,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Calculadora
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Página web efeito parallax
 
@@ -86,6 +108,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Efeito-Parallax
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Página web Spotify
 
@@ -103,6 +126,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Spotify
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Página web Finans
 
@@ -120,6 +144,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/finans
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Página web Museu Nacional
 
@@ -136,6 +161,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/MuseuNacional
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Página web Chalé do zé
 
@@ -152,6 +178,7 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 ```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
 ## Página web noticias cidade
 
