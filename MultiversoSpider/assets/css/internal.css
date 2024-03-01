@@ -1,8 +1,8 @@
 @import url(./reset.css);
 @import url(./global.css);
-@import url(../BEM.css/navigator.css);
-@import url(../BEM.css/pills.css);
-@import url(../BEM.css/buttomPlay.css);
+@import url(../css/components/navigator.css);
+@import url(../css/components/pills.css);
+@import url(../css/components/btnvideo.css);
 
 .s-wrapper{
     display: flex;
@@ -30,7 +30,6 @@
     padding-left: 130px;
 }
 
- 
 /* CONTEÚDOS INTERNO ------------------------------------*/
 
 .s-wrapper .s-main-content__top{
