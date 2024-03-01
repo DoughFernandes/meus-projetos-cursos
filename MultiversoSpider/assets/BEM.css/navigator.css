@@ -1,0 +1,60 @@
+
+.navegaitor{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.navegaitor ul li {
+    margin: 60px 0;
+}
+
+.navegaitor ul li:first-child {
+    margin-top: 0;
+}
+
+.navegaitor ul li:last-child {
+    margin-bottom: 0;
+}
+
+.navegaitor ul li a{
+    color: white;
+    border: 2px solid white;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegaitor::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    z-index: 0;
+}
+
+.navegaitor ul{
+    z-index: 1;
+}
+
+/* HOVER : ira aplicar novas cores */
+/* ACTIVE : ira aplicar novas cores ao selecionar um elemento */
+.navegaitor ul li a:hover,
+.navegaitor ul li a.active {
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.navegaitor .navigator__icon{
+    position: absolute;
+    top:  -20px;
+}
