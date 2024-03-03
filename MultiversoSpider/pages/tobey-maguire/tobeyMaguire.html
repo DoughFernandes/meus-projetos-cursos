@@ -7,6 +7,10 @@
 
     <link rel="stylesheet" type="text/css" href="../../assets/css/internal.css">
 
+    <!-- CDN -->
+    <link rel="stylesheet" href="../../imports/ui-5.0.33/dist/fancybox/fancybox.css">
+    <script src="../../imports/ui-5.0.33/dist/fancybox/fancybox.umd.js"></script>
+
 </head>
 <body>
     <div class="s-wrapper">
@@ -31,7 +35,7 @@
 
         </div><!-- END Column de interação -->
 
-        <div class="s-main-content"><!-- Contéudo principal -->
+        <div class="s-main-content s-spiderman-01-01"><!-- Contéudo principal -->
 
             <div class="s-main-content__top"><!-- LOGO TOBEY -->
 
@@ -75,9 +79,38 @@
 
             </div><!-- END LOGO TOBEY -->
 
-            <div class="s-main-content__bottom"></div>
+            <div class="s-main-content__bottom">
+                <div class="gallery">
+
+                   <ul>
+                        <li>
+                            <a data-fancybox="gallery" href="../../assets/images/spiderman-tobey/movie-01/gallery/image-01-full.jpg">
+                                <img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png" alt="Imagem do Spidermnan">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="../../assets/images/spiderman-tobey/movie-01/gallery/image-02-full.jpg">
+                                <img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png" alt="Imagem do Spidermnan">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox="gallery" href="../../assets/images/spiderman-tobey/movie-01/gallery/image-03-full.jpg">
+                                <img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png" alt="Imagem do Spidermnan">
+                            </a>
+                        </li>
+                        
+                   </ul>
+                </div>
+            </div>
 
         </div><!-- END Contéudo principal -->
+        
+        <script>
+            Fancybox.bind("[data-fancybox]", {
+                // Your custom options
+            });
+
+        </script>
 
     </div>
 </body>
