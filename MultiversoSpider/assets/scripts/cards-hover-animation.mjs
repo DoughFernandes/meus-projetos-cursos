@@ -21,3 +21,4 @@ function addEventListernersToCards(){
 
 // Esperar um evento sobre a tela para chamar a function
 document.addEventListener('DOMContentLoaded', addEventListernersToCards, false)
+
