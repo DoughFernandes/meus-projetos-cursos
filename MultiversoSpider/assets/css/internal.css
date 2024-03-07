@@ -66,11 +66,6 @@
     background-image: url(../images/spiderman-andrew/movie-02/background.png);
     background-size: cover;
 }
-.s-spiderman-03-03{
-    background-image: url(../images/spiderman-andrew/movie-03/background.png);
-    background-size: cover;
-}
-
 /* CONTEÚDOS INTERNO ------------------------------------*/
 .s-wrapper .s-main-content__top{
     height: 80vh;
