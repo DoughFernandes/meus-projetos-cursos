@@ -1,38 +1,60 @@
-# MEUS PROJETOS
+# Seja Bem-Vindo😄🥳
 
-## Software e linguagens utilizadas para criação
+>![Perfil](/Imagens/avatar%20doug.png)
 
-![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
-![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
-![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow)
-![Bootstrap](https://img.shields.io/badge/bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=264CE4)
-![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+``` html
+ Meu nome é <b>Douglas Souza</b> e sou um desenvolvedor apaixonado por inovação e criatividade. Atualmente, estou trabalhando em varios projetos e aprendendo muito sobre desenvolvimento Front-End. Adoro criar novos projetos e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
+```
 
-![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
-![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+## Como me Encontrar
 
-[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc)
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=GitHub)](https://github.com/DoughFernandes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/douglas-fernandes-616068287/)
+[![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram)](https://instagram.com/dooughsouza?utm_source=qr&igshid=OGIxMTE0OTdkZA==)
+[![DIO](https://img.shields.io/badge/DIGITAL_INNOVATION_ONE-000?style=for-the-badge)](https://www.dio.me/users/dfdsf1996)
 
-## Meus Projetos de Programação
+```html
+E-mail ✉️: dfdsf1996@gmail.com
 
-Olá! Aqui estão alguns dos projetos de programação nos quais trabalhei.
+Telefone 📱: (11)95582-4702
+```
 
-## Despesas
+## Olá! Seja Bem-Vindo aos meus Projetos 😊🖥️
 
-![Perfil](/Imagens/despesa.gif)
+Muito obrigado por dedicar seu tempo para explorar meus projetos no GitHub! Sua presença é muito apreciada. Se tiver alguma dúvida ou feedback, não hesite em compartilhar. Continue acompanhando e fique à vontade para contribuir ou entrar em contato. 🙌🚀
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
 
-Este é um projeto simples de um formulario de despesa que fiz usando HTML, CSS, JAVASCRIPT, BOOTSTRAP.
-### Detalhes do Projetos
+## Spider-Man 🕸️🕷️
 
-- **Tecnologias Frontend:** HTML, CSS, BOOTSTRAP
-- **Linguagem de Programação:** JAVASCRIPT
-- **Funcionalidades:** Um formulario de Despesas,você pode cadastrar, consultar e excluir suas despesas e a interação entre páginas e objetos na tela.
+![Perfil](/Imagens/Spider-Man-multiverso.gif)
+
+Este é um projeto fascinante que explora o multiverso do Spider-Man! Aqui estão os principais destaques.
+
+```html
+<h1>Objetivo do Projeto</h1>
+
+ - Criar uma plataforma interativa para os fãs do Homem-Aranha explorarem os diferentes universos e filmes relacionados ao herói.
+ - Oferecer informações detalhadas sobre cada filme, incluindo sinopses, elenco, diretores e curiosidades.
+
+<h1>Funcionalidades do Site</h1>
+
+ - Navegação Multiverso: Os usuários podem explorar os diferentes universos do Spider-Man, como o universo de Tobey Maguire, Andrew Garfield e Tom Holland.
+
+ - Detalhes dos Filmes: Cada filme tem sua própria página com informações detalhadas, como enredo, elenco, datas de lançamento e trailers.
+
+ - Galeria de Imagens: Uma coleção de imagens e pôsteres dos filmes.
+
+```
+
+## Detalhes do Projeto
+
+- **Tecnologias Frontend:** HTML, CSS.
+- **Linguagem de Programação:** JAVASCRIPT.
 
 Você pode ver o código do projeto aqui.
 
 ```js
-https://github.com/DoughFernandes/MeusProjetos/tree/main/Despesa
+https://github.com/DoughFernandes/MeusProjetos/tree/main/MultiversoSpider
 ```
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------->
@@ -42,7 +64,8 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Despesa
 ![Perfil](/Imagens/Vagalumes.gif)
 
 Este é um projeto simples de uma imagen animada que fiz usando HTML, CSS, JAVASCRIPT.
-### Detalhes do Projetos
+
+## Detalhes dos Projeto
 
 - **Tecnologias Frontend:** HTML, CSS
 - **Linguagem de Programação:** JAVASCRIPT
@@ -60,7 +83,8 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Vagalumes
 ![Perfil](/Imagens/MataMosquito.gif)
 
 Este é um projeto simples de um jogo que fiz usando HTML, CSS, JAVASCRIPT, BOOTSTRAP.
-### Detalhes do Projetos
+
+### Detalhes dos Projeto
 
 - **Tecnologias Frontend:** HTML, CSS, BOOTSTRAP
 - **Linguagem de Programação:** JAVASCRIPT
@@ -79,7 +103,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/JogoMataMosquito
 
 Este é um projeto simples de uma calculadora web que fiz usando HTML, CSS e JavaScript.
 
-### Detalhes do Projeto
+### Detalhes dos Projeto
 
 - **Linguagem de Programação:** JavaScript
 - **Tecnologias Frontend:** HTML, CSS
@@ -98,7 +122,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Calculadora
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
-### Detalhes do Projetos
+### Detalhes do Projeto
 
 - **Tecnologias Frontend:** HTML, CSS, Bootstrap
 - **Funcionalidades:** Uma página unica e simples, com efeito de posição de imagem
@@ -116,7 +140,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Efeito-Parallax
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
-### Detalhes do Projetos
+### Detalhes do Projeto
 
 - **Tecnologias Frontend:** HTML, CSS, Bootstrap
 - **Funcionalidades:** Uma página semelhante ao spotify
@@ -134,7 +158,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Spotify
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
-### Detalhes do Projetos
+### Detalhes do Projeto
 
 - **Tecnologias Frontend:** HTML, CSS, Bootstrap
 - **Funcionalidades:** Uma página Responsiva
@@ -151,7 +175,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/finans
 ![Perfil](/Imagens/MuseuNacional.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS.
-### Detalhes do Projetos
+### Detalhes do Projeto
 
 - **Tecnologias Frontend:** HTML, CSS
 - **Funcionalidades:** Uma página simples e demostrativa visual.
@@ -168,7 +192,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/MuseuNacional
 ![Perfil](/Imagens/Chale.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS.
-### Detalhes do Projetos
+### Detalhes do Projeto
 
 - **Tecnologias Frontend:** HTML, CSS
 - **Funcionalidades:** Uma página simples e demostrativa visual.
@@ -185,7 +209,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 ![Perfil](/Imagens/Noticia.gif)
 
 Este é um projeto simples de um site web que fiz usando HTML, CSS.
-### Detalhes do Projetos
+### Detalhes do Projeto
 
 - **Tecnologias Frontend:** HTML, CSS
 - **Funcionalidades:** Um site simples e demostrativa visual, interação entre páginas e links.
@@ -195,3 +219,25 @@ Você pode ver o código do projeto aqui.
 ```js
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 ```
+
+## Software e linguagens utilizadas para criação
+
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow)
+![Bootstrap](https://img.shields.io/badge/bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=264CE4)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
+
+```` html
+Todos os contéudos foram feito por Douglas Souza.
+
+E-mail ✉️: dfdsf1996@gmail.com
+
+Telefone 📱: (11)95582-4702
+
+Cidade 🌆: São Paulo - Sp
+````
