@@ -1,24 +1,17 @@
-const offset = 0;
-const limit = 10;
-const url = `https://pokeapi.co/api/v2/pokemon?offset =${offset}&limit=${limit}`; 
-
-
 function convertPokemonToLi (pokemon){
     return `
-        <li class="pokemon"><!-- Bulbasaur -->
+        <li class="pokemon ${pokemon.type}">
 
-        <span class="number">#001</span>
+        <span class="number">#${pokemon.number}</span>
         <span class="name">${pokemon.name}</span>
         
         <figure class="details">
 
-            <ol class="types">
-                <li class="type">grass</li>
-                <li class="type">poison</li>
-                
+            <ol class="types ">
+                ${pokemon.types.map((type) => `<li class="type ${type}"> ${type} </li>`).join('')}    
             </ol>
 
-            <img src="https://raw.githubusercontent.com/PokeAPi/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="${pokemon.name}">
+            <img src='${pokemon.photo}' alt="${pokemon.name}">
 
         </figure>
 
@@ -27,24 +20,8 @@ function convertPokemonToLi (pokemon){
 
 const pokemonList = document.getElementById('pokemonList')
 
+pokeApi.getPokemons().then((pokemons = []) => {
+    pokemonList.innerHTML += pokemons.map(convertPokemonToLi).join('')
+    //Pegando list de Pokemon convertendo em list HTML e join sem "SEPARADOR"
 
-// CHAMAR A API E PASSAR UMA FUNCTION
-
-fetch(url) // return promessa de rsposta
-    
-    .then((response) => response.json())/*Converte o recebimento em JSON */
-
-    .then((jsonBody) => jsonBody.results)//Pegar o resultado da list de pokemon
-
-    .then((pokemons) => { 
-
-        for (let i = 0; i < pokemons.length; i++) {
-            const pokemon = pokemons[i];
-            pokemonList.innerHTML += convertPokemonToLi(pokemon)
-            
-            
-        }
-
-    })//a list de pokemon
-
-    .catch((error) => {console.log(error)})//Chamar API, assim que ouver erro chamar function.
+})
