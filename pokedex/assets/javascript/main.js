@@ -1,27 +1,38 @@
-function convertPokemonToLi (pokemon){
-    return `
-        <li class="pokemon ${pokemon.type}">
+const pokemonList = document.getElementById('pokemonList')
+const loadMoreButton = document.getElementById('loadMoreButton')
+const limit = 12
+let offset = 0
 
-        <span class="number">#${pokemon.number}</span>
-        <span class="name">${pokemon.name}</span>
+function loadPokemonItens (offset, limit){
+
+    pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
+        const nerHtml =  pokemons.map((pokemon) => `
+            <li class="pokemon ${pokemon.type}">
         
-        <figure class="details">
+            <span class="number">#${pokemon.number}</span>
+            <span class="name">${pokemon.name}</span>
+            
+            <figure class="details">
 
-            <ol class="types ">
-                ${pokemon.types.map((type) => `<li class="type ${type}"> ${type} </li>`).join('')}    
-            </ol>
+                <ol class="types ">
+                    ${pokemon.types.map((type) => `<li class="type ${type}"> ${type} </li>`).join('')}    
+                </ol>
 
-            <img src='${pokemon.photo}' alt="${pokemon.name}">
+                <img src='${pokemon.photo}' alt="${pokemon.name}">
 
-        </figure>
+            </figure>
 
-        </li> `
+            </li>
+        `).join('') 
+        
+        pokemonList.innerHTML += nerHtml
+    })
+
 }
 
-const pokemonList = document.getElementById('pokemonList')
+loadPokemonItens(offset, limit)
 
-pokeApi.getPokemons().then((pokemons = []) => {
-    pokemonList.innerHTML += pokemons.map(convertPokemonToLi).join('')
-    //Pegando list de Pokemon convertendo em list HTML e join sem "SEPARADOR"
-
+loadMoreButton.addEventListener('click', () => {
+    offset += limit
+    loadPokemonItens(offset, limit)
 })

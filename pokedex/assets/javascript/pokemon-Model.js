@@ -1,4 +1,4 @@
-class pokemonModel {
+class Pokemon {
     number;
     name;
     type;

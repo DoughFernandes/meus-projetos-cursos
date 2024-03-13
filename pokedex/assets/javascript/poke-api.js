@@ -1,12 +1,12 @@
 const pokeApi = {};
 
 function convertPokeApiDetailToPokemon(pokeDetail){
-    const pokemon = new pokemonModel()
+    const pokemon = new Pokemon()
     pokemon.number = pokeDetail.order
     pokemon.name = pokeDetail.name
 
     const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)
-    const {type} = types
+    const [type] = types
 
     pokemon.types = types
     pokemon.type = type
@@ -22,13 +22,15 @@ pokeApi.getPokemonDetail = (pokemons) => {
         .then(convertPokeApiDetailToPokemon)
 }
 
-pokeApi.getPokemons = (offset = 0, limit = 10) => {
+
+
+pokeApi.getPokemons = (offset, limit) => {
     const url = `https://pokeapi.co/api/v2/pokemon?offset =${offset}&limit=${limit}`;
 
-    return fetch(url) // Buscar List pokemons
-        .then((response) => response.json()) /*Converte o response em JSON */
-        .then((jsonBody) => jsonBody.results) //Results em jsonBody
-        .then((pokemons) => pokemons.map(pokeApi.getPokemonDetail))//Busca de details e converter em JSON.
-        .then((detailRequest) => Promise.all(detailRequest))//Esperar a requisição terminar ppor completa.
+    return fetch(url)
+        .then((response) => response.json())
+        .then((jsonBody) => jsonBody.results)
+        .then((pokemons) => pokemons.map(pokeApi.getPokemonDetail))
+        .then((detailRequest) => Promise.all(detailRequest))
         .then((pokemonsDetails) => pokemonsDetails)
 }
