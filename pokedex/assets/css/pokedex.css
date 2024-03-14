@@ -4,15 +4,21 @@
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 1rem;
+    transition: all .50s;
+    width: 95%;
 }
 .pokemon .details{
     margin: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .pokemon .details .types{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
     list-style: none;
