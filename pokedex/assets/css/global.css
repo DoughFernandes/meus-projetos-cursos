@@ -22,10 +22,12 @@ body{
 .content h1{
     margin: 0;
 }
+.logo img{
+    border-radius: 1rem;
+}
 .pokemons{
     display: grid;
     grid-template-columns: 1fr;
-    width: 80%;
     list-style: none;
     padding: 0;
     margin: 0;
