@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./assets/css/pokedex.css">
         <link rel="stylesheet" href="./assets/css/colors-btn.css">
         <link rel="stylesheet" href="./assets/css/hover.css">
+        <link rel="stylesheet" href="./assets/css/card.css">
 
         <!-- NORMALIZE -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -28,22 +29,32 @@
     </head>
     <body>
         
-        <section class="content">
+        <header>
             <figure class="logo" title="logo">
                 <img src="./assets/imagem/logo.png" alt="logo tipo" width="100%">
             </figure>
 
+        </header>
+
+        <section class="content">
             <ol id="pokemonList" class="pokemons">
-                <!-- POKEMONS -->                
+                <!-- POKEMONS -->          
             </ol>
 
             <div class="pagination">
                 <button type="button" id="loadMoreButton"> Loade more ... </button>
             </div>
 
+            <div id="displayCardPokemon" class="displayCard">
+                <!-- CARDS -->
+            </div>
+
+            
+
         </section>
 
          <!-- JS -->
+        <script src="./assets/javascript/verPokemon.js"></script>
         <script src="./assets/javascript/pokemon-Model.js"></script>
         <script src="./assets/javascript/poke-api.js"></script>
         <script src="./assets/javascript/main.js"></script>

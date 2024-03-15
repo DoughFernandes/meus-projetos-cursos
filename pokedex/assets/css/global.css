@@ -4,6 +4,11 @@
     font-weight: weight;
     font-style: normal;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
 }
 body{
     background-color: #f6fafc;
@@ -17,8 +22,8 @@ body{
     background-color: #fff;
     height: 100%;
     width: 100vw;
+    border: 1px solid #b1b1b1;
 }
-
 .content h1{
     margin: 0;
 }
@@ -32,7 +37,7 @@ body{
     padding: 0;
     margin: 0;
 }
-.pokemon .number{
+.pokemon .number {
     color: #000;
     opacity: 0.3;
     text-align: right;
@@ -61,4 +66,7 @@ body{
     margin: .25rem 1rem;
     font-size: .625rem;
     margin-bottom: 1rem;
-}   
+}
+.logo{
+    position: relative;
+}
