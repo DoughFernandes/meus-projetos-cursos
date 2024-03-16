@@ -1,8 +1,11 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
-const maxRecord = 151
+const goToback = document.getElementById('goToBack')
+const maxRecord = 649
 const limit = 10
 let offset = 0
+
+/* -------------------------------------------------------------------------------------------------  */
 
 function convertPokemonToLi(pokemon) {
     return `
@@ -15,30 +18,18 @@ function convertPokemonToLi(pokemon) {
             
         <figure class="details">
 
+            <img src='${pokemon.photo}' alt="${pokemon.name}">
+
             <ol class="types" id ="typesDeElementsPokemon" >
                 ${pokemon.types.map((type) => `<li class="type ${type}" >${type} </li>`).join('')}</ol>
-
-            <img src='${pokemon.photo}' alt="${pokemon.name}">
 
         </figure>
     </li>
     `
 }
 
-loadMoreButton.addEventListener('click', () => {
-    offset += limit
-    const qtdRecordsWithNexPage = offset + limit
+/* -------------------------------------------------------------------------------------------------  */
 
-    if (qtdRecordsWithNexPage >= maxRecord) {
-        const newLimit = maxRecord - offset
-        loadPokemonItens(offset, newLimit)
-
-        loadMoreButton.parentElement.removeChild(loadMoreButton)
-    } else {
-        loadPokemonItens(offset, limit)
-    }
-    
-})
 function loadPokemonItens(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
         const newHtml = pokemons.map(convertPokemonToLi).join('')
@@ -47,3 +38,31 @@ function loadPokemonItens(offset, limit) {
 }
 
 loadPokemonItens(offset, limit)
+
+/* -------------------------------------------------------------------------------------------------  */
+loadMoreButton.addEventListener('click', () => { 
+    const qtdRecordsWithNexPage = offset + limit
+
+    if (qtdRecordsWithNexPage >= maxRecord) {
+        loadPokemonItens(offset, limit)
+
+    } else {
+        offset += limit
+        loadPokemonItens(offset, limit)
+    }
+})
+
+/* ---------------------------------------  */
+goToback.addEventListener('click', () => {
+
+    if (offset > 0) {
+        const newLimitMini = offset - limit
+        loadPokemonItens(newLimitMini, limit)
+        offset -= limit
+
+    } else{
+        loadPokemonItens(offset, limit)
+    }
+} )
+
+/* -------------------------------------------------------------------------------------------------  */

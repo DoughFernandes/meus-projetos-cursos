@@ -11,24 +11,34 @@ button{
     cursor: pointer;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
     background-color: #f6fafc;
+}
+header{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(160,13,31);
+    background-image: url(../imagem/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 1rem;
 }
 .content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     background-color: #fff;
     height: 100%;
     width: 100vw;
-    border: 1px solid #b1b1b1;
 }
 .content h1{
     margin: 0;
-}
-.logo img{
-    border-radius: 1rem;
 }
 .pokemons{
     display: grid;

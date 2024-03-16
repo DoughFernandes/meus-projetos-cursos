@@ -1,6 +1,5 @@
 
 function convertCardToLi(namePokemon, idPokemon, photoPokemon, typePokemon,typePokemon2 = '' ) {
-    console.log(namePokemon, idPokemon, photoPokemon, typePokemon,typePokemon2)
     return `
             <section id="removerHtml" class= "card">
                 <button onclick="delet()" class="btnCard" type="button" title="button"></button>
@@ -10,6 +9,7 @@ function convertCardToLi(namePokemon, idPokemon, photoPokemon, typePokemon,typeP
                 </div>
 
                 <div class="detailsPokemon ${typePokemon}">
+                <img src="./assets/imagem/Card-Pokebola.jpg" alt="card">
                     <div class="detailsNumber">#${idPokemon}</div>
                     <div class="detailsName">${namePokemon}</div>
                     <div class="detailsType">${typePokemon} ${typePokemon2}</div>
@@ -21,8 +21,6 @@ function convertCardToLi(namePokemon, idPokemon, photoPokemon, typePokemon,typeP
 
 function pegarIdDeTypes (){
     const recuperarTypesPokemon = document.querySelector('#typesDeElementsPokemon')
-    
-    console.log(recuperarTypesPokemon)
 }
 
 function gerarPokemonActive(namePokemon, idPokemon, photoPokemon, typePokemon,typePokemon2){
