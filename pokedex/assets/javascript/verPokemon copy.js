@@ -19,17 +19,14 @@ function convertCardToLi(namePokemon, idPokemon, photoPokemon, typePokemon,typeP
             </section>
         `
 }
-function gerarPokemonActive(namePokemon, idPokemon, photoPokemon, typePokemon, typePokemon2){
-    namePokemon = namePokemon;
-    idPokemon = idPokemon;
-    photoPokemon = photoPokemon;
-    typePokemon = typePokemon;
-    typePokemon2 = typePokemon2;
 
+function pegarIdDeTypes (){
+    const recuperarTypesPokemon = document.querySelector('#typesDeElementsPokemon')
+}
+
+function gerarPokemonActive(namePokemon, idPokemon, photoPokemon, typePokemon,typePokemon2){
     const newHtmlPokemonActive = document.getElementById('displayCardPokemon')
-    const convertPhoto = convertImg(photoPokemon)
-
-    newHtmlPokemonActive.innerHTML = convertCardToLi(namePokemon, idPokemon, convertPhoto, typePokemon,typePokemon2)
+    newHtmlPokemonActive.innerHTML = convertCardToLi(namePokemon, idPokemon, photoPokemon, typePokemon,typePokemon2)
 }
 
 function delet(){
