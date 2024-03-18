@@ -9,7 +9,7 @@ let offset = 0
 
 function convertPokemonToLi(pokemon) {
     return `
-    <li onclick="gerarPokemonActive('${pokemon.name}', ${pokemon.number}, '${pokemon.photo}',${pokemon.types.map((type) => `'${type}'`).join(',')})" 
+    <li onclick="gerarPokemonActive('${pokemon.name}', ${pokemon.number}, '${pokemon.photo}', types =[ ${pokemon.types.map((type) => `'${type}'`).join(',')}])" 
     
     class="pokemon ${pokemon.type}">
     
