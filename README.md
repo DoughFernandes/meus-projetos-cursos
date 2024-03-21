@@ -1,6 +1,6 @@
 # Seja Bem-Vindo😄🥳
 
->![Perfil](/data/Imagens/avatar%20doug.png)
+>![Perfil](/Imagens/avatar%20doug.png)
 
 ``` html
  Meu nome é <b>Douglas Souza</b> e sou um desenvolvedor apaixonado por inovação e criatividade. Atualmente, estou trabalhando em varios projetos e aprendendo muito sobre desenvolvimento Front-End. Adoro criar novos projetos e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
@@ -26,7 +26,7 @@ Muito obrigado por dedicar seu tempo para explorar meus projetos no GitHub! Sua 
 <!-- -------------------------------------------------------------------------------------------------------------------------------->
 ## Pokemon-Pokedex 
 
-![Perfil](/data/Imagens/Pokedex.gif)
+![Perfil](/Imagens/Pokedex.gif)
 
 Este projeto é uma implementação de uma Pokedex usando JavaScript e a API PokeAPI.
 
@@ -60,7 +60,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/pokedex
 
 ## Spider-Man 🕸️🕷️
 
-![Perfil](/data/Imagens/Spider-Man-multiverso.gif)
+![Perfil](/Imagens/Spider-Man-multiverso.gif)
 
 Este é um projeto fascinante que explora o multiverso do Spider-Man! Aqui estão os principais destaques.
 
@@ -95,7 +95,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/MultiversoSpider
 
 ## Vagalumes
 
-![Perfil](/data/Imagens/Vagalumes.gif)
+![Perfil](/Imagens/Vagalumes.gif)
 
 Este é um projeto simples de uma imagen animada que fiz usando HTML, CSS, JAVASCRIPT.
 
@@ -114,7 +114,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Vagalumes
 
 ## Mata Mosquito
 
-![Perfil](/data/Imagens/MataMosquito.gif)
+![Perfil](/Imagens/MataMosquito.gif)
 
 Este é um projeto simples de um jogo que fiz usando HTML, CSS, JAVASCRIPT, BOOTSTRAP.
 
@@ -133,7 +133,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/JogoMataMosquito
 
 ## Calculadora em JavaScript
 
-![Perfil](/data/Imagens/Calculadora.gif)
+![Perfil](/Imagens/Calculadora.gif)
 
 Este é um projeto simples de uma calculadora web que fiz usando HTML, CSS e JavaScript.
 
@@ -152,7 +152,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Calculadora
 
 ## Página web efeito parallax
 
-![Perfil](/data/Imagens/capa-parallax.gif)
+![Perfil](/Imagens/capa-parallax.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
@@ -170,7 +170,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Efeito-Parallax
 
 ## Página web Spotify
 
-![Perfil](/data/Imagens/Spotify.gif)
+![Perfil](/Imagens/Spotify.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
@@ -188,7 +188,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Spotify
 
 ## Página web Finans
 
-![Perfil](/data/Imagens/PaginaResponsiva.gif)
+![Perfil](/Imagens/PaginaResponsiva.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
 
@@ -206,7 +206,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/finans
 
 ## Página web Museu Nacional
 
-![Perfil](/data/Imagens/MuseuNacional.gif)
+![Perfil](/Imagens/MuseuNacional.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS.
 ### Detalhes do Projeto
@@ -223,7 +223,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/MuseuNacional
 
 ## Página web Chalé do zé
 
-![Perfil](/data/Imagens/Chale.gif)
+![Perfil](/Imagens/Chale.gif)
 
 Este é um projeto simples de uma página web que fiz usando HTML, CSS.
 ### Detalhes do Projeto
@@ -240,7 +240,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 
 ## Página web noticias cidade
 
-![Perfil](/data/Imagens/Noticia.gif)
+![Perfil](/Imagens/Noticia.gif)
 
 Este é um projeto simples de um site web que fiz usando HTML, CSS.
 ### Detalhes do Projeto
