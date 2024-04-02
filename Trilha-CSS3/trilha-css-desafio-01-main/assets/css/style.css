@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap');
+
+/* ALL ---------------------------------------------------- */
+
+:root {
+    --cor-fundo: linear-gradient(180deg, #33abdb, #142787);
+    --cor-texto: #ffffff;
+    --cor-titulo: #33abdb;
+    --cor-border: #33abdb;
+    --cor-link: #142787;
+}
+
+*{
+    font-family: Raleway, Helvetica, sans-serif;
+    color: var(--cor-texto);
+}
+body{
+    background-color: #202020;
+}
+h1{
+    background-image: var(--cor-fundo);
+    background-clip: text;
+    color: transparent;
+}
+h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--cor-titulo);
+    letter-spacing: .5rem;
+}
+/* HEADER ---------------------------------------------------- */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 605px;
+    border-bottom: 1px solid var(--cor-titulo);
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 25rem;
+}
+.banner-content h1{
+    margin: 0;
+    font-size: 3.6rem;
+    font-weight: 900;
+}
+.banner-content p {
+    color: var(--cor-texto);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.banner-content button{
+    width: 350px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    letter-spacing: .3rem;
+    border: 2px solid var(--cor-border);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background-image: var(--cor-fundo);
+    background-clip: text;
+    color: transparent;
+}
+
+/* MAIN ---------------------------------------------------- */
+
+/* SECTION 1 --------- */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--cor-border);
+}
+#course-content{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 49rem;
+    height: 30.1rem;
+}
+#course-content p{
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+.modules-list{
+    height: 20rem;
+    width: auto;
+}
+.module{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.4rem;
+    height: 3.5rem;
+    border: 1px solid var(--cor-border);
+    border-radius: 4rem;
+    margin: 1.5rem 0 ;
+    background-color: #2c2c2c;
+}
+.module span {
+    color: var(--cor-titulo);
+}
+
+/* SECTION 2 --------- */
+
+#transform-world{
+    height: 30.6rem;
+    width: 100%;
+    background-image: url(../images/woman-code.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#transform-world p {
+    font-weight: 900;
+    font-size: 3rem;
+    width: 15rem;
+    text-shadow: 5px 5px 10px  var(--cor-titulo);
+    padding: 5rem 10rem;
+    line-height: 4rem;
+}
+
+/* SECTION 3 --------- */
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+#professional-challenges h2{
+    text-align: center;
+    width: 80rem;
+}
+#professional-challenges p{
+    text-align: center;
+    width: 60rem;
+}
+
+/* FOOTER ---------------------------------------------------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+footer p, a {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+footer p a{
+    color: var(--cor-titulo);
+}
