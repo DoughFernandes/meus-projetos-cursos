@@ -1,0 +1,22 @@
+@media (width >= 768px) {
+    .sections{
+        grid: 
+            "imagem details" auto
+            "imagem details" auto
+        / 400px 200px;
+    }
+    .sections:nth-child(2){
+        grid: 
+            "details imagem" auto
+            "details imagem" auto
+        / 200px 400px;
+        background-color: rgb(222, 222, 222);
+    }
+    .sections:nth-child(4){
+        grid: 
+            "details details" auto
+            "imagem imagem" auto
+        / 300px 300px;
+        background-color: rgb(222, 222, 222);
+    }
+}
