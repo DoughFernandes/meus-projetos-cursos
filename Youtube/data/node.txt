@@ -1,0 +1,4 @@
+Api key: AIzaSyA85SXuco9YxtAI51w4Y1cn9BcmdX4GY5E
+id: UCNt_2E3QFGfXfzRl74sboaQ
+upload: UUNt_2E3QFGfXfzRl74sboaQ
+url: https://youtube.googleapis.com/youtube/v3
