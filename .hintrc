@@ -10,13 +10,6 @@
       }
     ],
     "no-inline-styles": "off",
-    "compat-api/html": [
-      "default",
-      {
-        "ignore": [
-          "iframe[allow]"
-        ]
-      }
-    ]
+    "compat-api/html": "off"
   }
 }

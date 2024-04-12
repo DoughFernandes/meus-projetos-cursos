@@ -21,10 +21,30 @@ Telefone 📱: (11)95582-4702
 
 ## Olá! Seja Bem-Vindo aos meus Projetos 😊🖥️
 
-Muito obrigado por dedicar seu tempo para explorar meus projetos no GitHub! Sua presença é muito apreciada. Se tiver alguma dúvida ou feedback, não hesite em compartilhar. Continue acompanhando e fique à vontade para contribuir ou entrar em contato. 🙌🚀
+Muito obrigado por dedicar seu tempo para explorar meus projetos no GitHub! Sua presença é muito apreciada. Se tiver alguma dúvida ou feedback, não hesite em compartilhar. 🙌🚀
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------->
-## Pokemon-Pokedex 
+
+## Coffee Shop
+
+![Perfil](/Imagens/coffee.gif)
+
+Este é um projeto de uma cafeteria que fiz usando HTML, CSS, JAVASCRIPT, BOOTSTRAP.
+
+## Detalhes dos Projeto
+
+- **Tecnologias Frontend:** HTML, CSS, BOOTSTRAP
+- **Linguagem de Programação:** JAVASCRIPT
+- **Funcionalidades:** Interação com cards e menus.
+
+Você pode ver o código do projeto aqui.
+
+```link
+https://github.com/DoughFernandes/MeusProjetos/tree/main/coffe
+```
+<!-- -------------------------------------------------------------------------------------------------------------------------------->
+
+## Pokemon-Pokedex
 
 ![Perfil](/Imagens/Pokedex.gif)
 

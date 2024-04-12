@@ -1,3 +1,16 @@
+/* Global */
+:root{
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #144C43;
+}
+main{
+    margin-top: 3.7rem;
+}
+section {
+    scroll-margin-top: 5rem;
+}
+
+/* Header */
 .btn{
     --bs-btn-bg: #198754;
     --bs-btn-border-color: #144C43;
@@ -29,4 +42,23 @@
     height: 100%;
     background: linear-gradient(transparent, rgba(31, 31, 31 , 1));
     position: absolute;
+}
+/* Cards tabs content */
+.card-menu img{
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Cards Maps */
+.modal-body iframe{
+    height: 300px;
+    max-width: 100%;
+}
+
+/* Footer */
+.footer-coffee img{
+    padding: .5rem;
+    width: 2.5rem;
+    background-color: rgb(221, 222, 223);
+    border-radius: 1.5rem;
 }
