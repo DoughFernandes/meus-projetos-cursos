@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(./header.css);
+@import url(./media.css);
+
+:root{
+    --bg-primary: #212B8A;
+    --bg-segundary: #012BE7;
+    --bg-tertiary: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(55,47,106,1) 100%);
+    --card-color: #ffffff;
+
+    --card-text: #000066;
+    --titulo-color: #ffffff;
+    --text-color: #372F6A;
+    --link-color: #246eff;
+
+    --button-bg-color: #012be7;
+    --button-text-color: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-size: 1.125rem;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+button, a {
+    cursor: pointer;
+}
+.btn{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    background: var(--button-bg-color);
+    color: var(--button-text-color);
+}

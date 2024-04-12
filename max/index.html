@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max</title>
+
+    <!--HTTP icon-->
+     <link rel="icon" type="image/png" href="./assets/img/max.svg">
+
+    <!--Link CSS-->
+     <link rel="stylesheet" href="./assets/css/global.css">
+
+    <!--Normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="./assets/svg/max.svg" alt="Imagem logo">
+
+            <nav class="header__nav-desktop"><!--Desktop-->
+                <button class="btn" type="button" title="inicio">Inicio</button>
+                <button class="btn" type="button" title="Assinar agora">Assinar Agora</button>
+            </nav>
+
+            <nav class="header__nav-mobile"><!--Mobile-->
+                <button id="button-mobile" type="button" title="open menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>   
+        </div>
+        <nav id="collapse-mobile" class="nav-mobile__collapse" style="display: none;">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./index.html">Assinar Agora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="./assets/js/header_button.js"></script>
+
+</body>
+</html>
