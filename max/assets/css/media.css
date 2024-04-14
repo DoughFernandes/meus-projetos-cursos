@@ -8,4 +8,11 @@
     .header__nav-mobile{
         display: none;
     }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 30rem);
+        grid-template-rows: 1fr 1fr;
+        place-content: center;
+        gap: 1rem;
+    }
 }

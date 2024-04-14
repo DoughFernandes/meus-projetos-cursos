@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @import url(./header.css);
 @import url(./media.css);
+@import url(./primary.css);
+@import url(./cards.css);
 
 :root{
     --bg-primary: #212B8A;
@@ -21,16 +23,22 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
-    font-family: "Raleway", sans-serif;
     text-decoration: none;
-    font-style: none;
+    font-style: none!important;
+    color: var(--button-text-color);
+}
+body{
+    background: var(--bg-segundary);
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+img{
+    max-width: 100%;
 }
 button, a {
     cursor: pointer;
