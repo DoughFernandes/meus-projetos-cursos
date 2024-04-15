@@ -24,7 +24,7 @@ header img{
     place-content: center;
     margin:0 .5rem;
 }
-.header__nav-desktop button:nth-child(1){
+.header__nav-desktop a:nth-child(1){
     background:none;
 }
 

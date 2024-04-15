@@ -3,9 +3,16 @@ const menu = document.getElementById("collapse-mobile");
 
 window.addEventListener('resize', function() {
     const displayWidth = window.innerWidth;
+    const cards = document.getElementById("cards")
     
-    if (displayWidth > 768) {
+    if (displayWidth > 568) {
         menu.style.display = 'none';
+        cards.classList.remove("cards");
+        cards.classList.add("cards_desktop");
+
+    }else{
+        cards.classList.remove("cards_desktop");
+        cards.classList.add("cards");
     }
 });
 

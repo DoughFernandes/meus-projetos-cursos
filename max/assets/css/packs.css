@@ -5,17 +5,19 @@
     gap: 1rem;
 }
 .plan_cards{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     place-content: center;
-    grid-template-columns: repeat(auto-fill, 30rem);
-    grid-template-rows: auto-fill;
+    flex-wrap: wrap;
     gap: 1rem;
+    margin: 2rem 1rem;
 }
 .plans{
     display: flex;
     place-content: center;
     flex-wrap: wrap;
     width: 100%;
+    gap: 2rem 0;
 }
 .plans h1{
     width: 100%;
@@ -26,9 +28,10 @@
 
 /* PLAN CARDS */
 .close-card{
-    display: none;
+    display: none!important;
 }
 .plan_card{
+    width: 30rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -69,7 +72,13 @@
     font-size: 1rem;
     font-weight: 800;
 }
-.btn{
+.packs .btn{
     width: 10rem;
     margin-bottom: 1rem;
+}
+.btn_annual::before{
+    content: "Economize Até 36%";
+    color: aqua;
+    position: absolute;
+    transform: translateY(-30px) translateX(-10px);
 }

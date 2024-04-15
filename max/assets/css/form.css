@@ -1,0 +1,44 @@
+.main_form{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_form form {
+    height: 30rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    background: var(--card-text);
+}
+.main_form input {
+    padding: 1rem;
+    width: 80%;
+    border: 1px solid var(--card-color);
+    border-radius: 1rem;
+    background: transparent;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    flex-wrap: wrap;
+}
+.main_form .btn:nth-child(2){
+    background: none;
+    color: var( --link-color);
+}
+
+
+input:valid{
+    color: rgb(137, 251, 137);
+}
+input:invalid{
+    color: rgb(251, 137, 137);
+}

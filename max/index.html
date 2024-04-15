@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
     <!--Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 
 </head>
@@ -25,8 +25,8 @@
             <img src="./assets/svg/max.svg" alt="Imagem logo">
 
             <nav class="header__nav-desktop"><!--Desktop-->
-                <button class="btn" type="button" title="inicio">Inicio</button>
-                <button class="btn" type="button" title="Assinar agora">Assinar Agora</button>
+                <a class="btn" type="button" title="inicio" href="./index.html">Inicio</a>
+                <a class="btn" type="button" title="Assinar agora" href="./pages/login.html">Assinar Agora</a>
             </nav>
 
             <nav class="header__nav-mobile"><!--Mobile-->
@@ -38,7 +38,7 @@
         <nav id="collapse-mobile" class="nav-mobile__collapse" style="display: none;">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./index.html">Assinar Agora</a></li>
+                <li><a href="./pages/login.html">Assinar Agora</a></li>
             </ul>
         </nav>
     </header>
@@ -55,7 +55,7 @@
             <p>Muito mais a ver. Conheça nossa plataforma aprimorada e não perca todos os seus favoritos e as melhores estreias, só aqui.</p>
         </section>
 
-        <section class="cards">
+        <section id="cards" class="cards_desktop">
             <div class="cards__animation">
                 <div id="card" class="cards-card">
                     <img src="./assets/img/CN-Default.webp" alt="cartoon network">
@@ -82,7 +82,7 @@
         <section class="packs">
             <div class="plans">
                 <h1>Escolha o melhor plano para você</h1>
-                <button id="annual" class="btn btn-active" type="button">Anual Parcelado</button>
+                <button id="annual" class="btn btn_annual btn-active" type="button">Anual Parcelado</button>
                 <button id="monthly" class="btn" type="button">Mensal</button>
             </div>
 
@@ -174,7 +174,28 @@
         
     </main>
 
-    <script src="./assets/js/header_button.js"></script>
+    <footer>
+        <div class="link">
+            <ul>
+                <li><a class="footer__link" href="#">AGORA NA HBO MAX</a></li>
+                <li><a class="footer__link" href="#">EM BREVE</a></li>
+                <li><a class="footer__link" href="#">FILMES EM DESTAQUES</a></li>
+                <li><a class="footer__link" href="#">SÉRIES</a></li>
+                <li><a class="footer__link" href="#">AJUDA</a></li>
+            </ul>
+        </div>
+        <p>
+            © 2024 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. Max é usado sob licença, Douglas Fernandes.
+        </p>
+        <div class="footer__icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
+
+    <script src="./assets/js/global.js"></script>
     <script src="./assets/js/plans.js"></script>
 
 </body>

@@ -5,6 +5,8 @@
 @import url(./primary.css);
 @import url(./cards.css);
 @import url(../css/packs.css);
+@import url(../css/footer.css);
+@import url(./form.css);
 
 :root{
     --bg-primary: #212B8A;
@@ -27,20 +29,22 @@
     box-sizing: content-box;
     font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
+    list-style: none;
     text-decoration: none;
-    font-style: none!important;
 }
 body{
+    height: 100%;
     background: var(--bg-segundary);
     color: var(--text-color);
+}
+main{
+    height: 100%;
+    width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-}
-img{
-    max-width: 100%;
 }
 button, a {
     cursor: pointer;

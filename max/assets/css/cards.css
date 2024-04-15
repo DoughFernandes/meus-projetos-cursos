@@ -1,43 +1,58 @@
 .cards{
-    width: 100%;
     height: 250px;
-    transition: all 1s ease-in-out;
-}
-.cards__animation{
-    height: 100%;
     width: 100%;
+}
+.cards .cards__animation{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    perspective: 200px;
-    perspective-origin: 45% -57%;
-    transition: all 1s ease-in-out;
+    place-content: center;
 }
-.cards-card {
-    padding: 0;
-    margin: 0;
-    width: 10rem;
+.cards .cards-card{
     position: absolute;
-    transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px) skewX(0deg) skewY(0deg);
-    transition: all .5s ease-in-out;
 }
-.cards-card:nth-child(5) {
-    margin: 0 0 0 0;
+.cards-card img {
+    width: 10rem;
 }
-.cards-card:nth-child(4) {
-    margin: -1rem 10rem 0 0;
+.cards .cards-card:nth-child(5){
+   margin: 0;
 }
-.cards-card:nth-child(3) {
-    margin: -1rem 0 0 10rem;
+.cards .cards-card:nth-child(4){
+   margin: -1rem 0 0 10rem;
 }
-.cards-card:nth-child(2) {
-    margin: -2rem 20rem 0 0;
+.cards .cards-card:nth-child(3){
+  margin: -1rem 0 0 -10rem;
 }
-.cards-card:nth-child(1) {
+.cards .cards-card:nth-child(2){
     margin: -2rem 0 0 20rem;
 }
+.cards .cards-card:nth-child(1){
+    margin: -2rem 0 0 -20rem;
+}
+
+/* HOVER */
 .cards-card:hover{
     transform: scale(1.1);
     z-index: 1;
+    transition: all 0.5s ease;
+}
+
+/* CARDS DEKTOP*/
+
+.cards_desktop{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    height: auto;
+    width: 100%;
+}
+.cards_desktop .cards-card img {
+    width: 20rem;
+}
+.cards_desktop .cards__animation{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }

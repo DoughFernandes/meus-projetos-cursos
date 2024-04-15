@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max</title>
+
+    <!--HTTP icon-->
+     <link rel="icon" type="image/png" href="../assets/img/max.svg">
+
+    <!--Link CSS-->
+     <link rel="stylesheet" href="../assets/css/global.css">
+
+    <!--Normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="../assets/svg/max.svg" alt="Imagem logo">
+
+            <nav class="header__nav-desktop"><!--Desktop-->
+                <a class="btn" type="button" title="inicio" href="../index.html">Inicio</a>
+                <a class="btn" type="button" title="Assinar agora" href="./login.html">Assinar Agora</a>
+            </nav>
+
+            <nav class="header__nav-mobile"><!--Mobile-->
+                <button id="button-mobile" type="button" title="open menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>   
+        </div>
+        <nav id="collapse-mobile" class="nav-mobile__collapse" style="display: none;">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./pages/login.html">Assinar Agora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main_form">
+        
+        <form action="login">
+            <h3>ENTRAR</h3>
+            <label>Você tem uma conta da HBO Max?</label>
+
+            <input name="email" type="email" placeholder="Endereço de email" required>
+
+            <input name="password" type="password" placeholder="Senha" required>
+
+            <div class="buttons">
+                <button class="btn" type="submit">Entrar</button>
+                <button class="btn" type="button">Esqueceu a senha?</button>
+            </div>
+        </form>
+        
+    </main>
+
+    <footer>
+        <div class="link">
+            <ul>
+                <li><a class="footer__link" href="#">AGORA NA HBO MAX</a></li>
+                <li><a class="footer__link" href="#">EM BREVE</a></li>
+                <li><a class="footer__link" href="#">FILMES EM DESTAQUES</a></li>
+                <li><a class="footer__link" href="#">SÉRIES</a></li>
+                <li><a class="footer__link" href="#">AJUDA</a></li>
+            </ul>
+        </div>
+        <p>
+            © 2024 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. Max é usado sob licença, Douglas Fernandes.
+        </p>
+        <div class="footer__icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
+
+    <script src="../assets/js/global.js"></script>
+    <script src="../assets/js/plans.js"></script>
+
+</body>
+</html>
