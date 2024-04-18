@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+@import url(./navegation.css);
+@import url(../css/main/main.css);
+
+:root{
+    --bg-primary: #1d1d1f;
+    --cor-fundo: linear-gradient(180deg, #3d3d3f, #1b1b1b);
+    --cor-titulo: red;
+    --cor-texto: #ffffff;
+    --cor-border: #ffffff;
+    --cor-link: #f1867e;
+}
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+body{
+    height: 100vh;
+    background: var(--bg-primary) no-repeat;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}

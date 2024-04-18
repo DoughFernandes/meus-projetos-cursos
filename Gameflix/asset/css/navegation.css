@@ -1,0 +1,29 @@
+.header-navegation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cor-fundo);
+}
+.titulo-gameflix{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-titulo);
+    font-size: 4rem;
+    padding: 1rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding:1rem;
+}
+.navbar li a{
+    color: var(--cor-texto);
+}
+.navbar li:hover, li a:hover{
+    color: var(--cor-link);
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
