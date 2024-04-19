@@ -26,4 +26,5 @@ body{
     background: var(--bg-primary) no-repeat;
     font-family: "Roboto", sans-serif;
     color: white;
+    overflow-x: hidden;
 }

@@ -1,6 +1,9 @@
 .main {
     display: grid;
-    grid-template: "sobre shorts" 50vh "videos videos" 40vh / 1fr 1fr;
+    grid-template: 
+    "sobre sobre sobre ." auto 
+    "videos videos videos videos" auto
+    / 1fr 1fr 1fr 1fr;
     background: 
         linear-gradient(rgba(14, 14, 14, 0.8), rgba(17, 17, 17, 0.8)), 
         url('../../img/heade_fundo.jpeg');
@@ -23,12 +26,57 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-
-/* MAIN SHORTS */
-.m__shorts{
-    grid-area: shorts;
-    border: 1px solid white;
+.m__sobre small a{
+    color: var(--cor-link);
 }
+.m__sobre small a:hover{
+    color: red;
+    transition: all .5s ease-in-out;
+}
+/* MAIN VIDEOS */
 .m__videos{
     grid-area: videos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+}
+.v__video{
+    width: 20rem;
+    border-radius: 1rem;
+}
+.v__video iframe{
+    max-width: 100%;
+    border-radius: 1rem;
+    transition: all .5s ease-in;
+}
+.v__video iframe:hover{
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    padding: 1rem;
+}
+footer p {
+    text-align: center;
+}
+
+@media (width > 768px) {
+    .main {
+        display: grid;
+        grid-template: 
+        "sobre sobre sobre sobre . ." auto 
+        "videos videos videos videos videos videos" auto
+        / 1fr 1fr 1fr 1fr 1fr 1fr;
+        background: 
+            linear-gradient(rgba(14, 14, 14, 0.8), rgba(17, 17, 17, 0.8)), 
+            url('../../img/heade_fundo.jpeg');
+        background-size: cover;
+    }
 }
