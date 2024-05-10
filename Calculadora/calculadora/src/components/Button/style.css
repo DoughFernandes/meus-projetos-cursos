@@ -1,0 +1,54 @@
+.limpar{
+    grid-area: limpar;
+}
+.divisao{
+    grid-area: divisao;  
+}
+.multiplicacao{
+    grid-area: multiplicacao;
+}
+.soma{
+    grid-area: somar;
+}
+.subtracao{
+    grid-area: subtracao;
+}
+.total{
+    grid-area: total;
+}
+.ponto{
+    grid-area: ponto;
+}
+.apagar{
+    grid-area: apagar;
+}
+.zero{
+    grid-area: zero;
+}
+.primeiro{
+    grid-area: primeiro;
+}
+.segundo{
+    grid-area: segundo;
+}
+.terceiro{
+    grid-area: terceiro;
+}
+.quarto{
+    grid-area: quarto;
+}
+.quinto{
+    grid-area: quinto;
+}
+.sexto{
+    grid-area: sexto;
+}
+.setimo{
+    grid-area: setimo;
+}
+.oitavo{
+    grid-area: oitavo;
+}
+.nono{
+    grid-area: nono;
+}
