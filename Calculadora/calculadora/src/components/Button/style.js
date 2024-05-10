@@ -6,4 +6,8 @@ export const ButtonContainer =styled.button`
     color: #FFFFFF;
     border-radius: .5rem;
     font-size: 1.5rem;
+
+    &:active{
+        opacity: 0.6;
+    }
 `

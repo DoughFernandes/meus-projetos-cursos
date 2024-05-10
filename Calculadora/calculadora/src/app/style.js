@@ -15,11 +15,11 @@ export const Content = styled.div`
   display: grid;
     grid-template:
       "input input input input" 100px
-      "limpar limpar apagar divisao" auto
+      "limpar limpar multiplicacao divisao" auto
       "setimo oitavo nono subtracao" auto
       "quarto quinto sexto somar" auto
       "primeiro segundo terceiro total" auto
-      "ponto zero zero total" auto
+      "zero zero ponto total" auto
       / 1fr 1fr 1fr 1fr 
     ;
   gap: .5rem;

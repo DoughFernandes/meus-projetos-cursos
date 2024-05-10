@@ -19,9 +19,6 @@
 .ponto{
     grid-area: ponto;
 }
-.apagar{
-    grid-area: apagar;
-}
 .zero{
     grid-area: zero;
 }
