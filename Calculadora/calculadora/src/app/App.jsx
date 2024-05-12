@@ -1,35 +1,56 @@
 import { Container, Content } from './style';
-
 import Input from '../components/Input'
 import Button from '../components/Button'
 import { useState } from 'react';
-import { Operacao } from './Operacao';
 
 const App = ()=>{
-  const [currentNumber, setCurrentNumber] = useState('');
-
-  const handleNumber = (num, action) => {
-    Operacao(num, action, setCurrentNumber);
+  const [currentNumber, setCurrentNumber] = useState('0');
+  const [firstNumber, setFirstNumber] = useState('0');
+  const [action, setAction] = useState(' ');
+  
+  const handleAddNumber = (num) => {
+    setCurrentNumber(prev => `${prev === '0'? '' : prev}${num}`);
   }
 
+  const handleSumNumber = (num) => {
+    if(num === 'C'){
+      setCurrentNumber('0');
+      setFirstNumber('0');
+    }
+    if(num === '+' || num === '-' || num === '/' || num === '*' || num === ''){
+      setFirstNumber(currentNumber);
+      setAction(num);
+      setCurrentNumber('0');
+    } 
+    if(num === '='){
+      // eslint-disable-next-line no-eval
+      const resultado = eval(`${firstNumber} ${action} ${currentNumber}`);
+      
+      setFirstNumber(resultado);
+      setCurrentNumber(resultado);
+    }
+  }
+
+
   const buttons =[
-    {label: 'C', className: 'limpar', action: 'action'},
-    {label: '+', className: 'soma', action: 'action'},
-    {label: '/', className: 'divisao', action: 'action'},
-    {label: '-', className: 'subtracao', action: 'action'},
-    {label: 'X', className: 'multiplicacao', action: 'action'},
-    {label: '=', className: 'total', action: 'action'},
-    {label: ',', className: 'ponto', action: 'action'},
-    {label: '0', className: 'zero', action: 'number'},
-    {label: '1', className: 'primeiro', action: 'number'},
-    {label: '2', className: 'segundo', action: 'number'},
-    {label: '3', className: 'terceiro', action: 'number'},
-    {label: '4', className: 'quarto', action: 'number'},
-    {label: '5', className: 'quinto', action: 'number'},
-    {label: '6', className: 'sexto', action: 'number'},
-    {label: '7', className: 'setimo', action: 'number'},
-    {label: '8', className: 'oitavo', action: 'number'},
-    {label: '9', className: 'nono', action: 'number'}
+    {label: 'C', className: 'limpar', action: handleSumNumber},
+    {label: '+', className: 'soma', action: handleSumNumber},
+    {label: '/', className: 'divisao', action: handleSumNumber},
+    {label: '-', className: 'subtracao', action: handleSumNumber},
+    {label: '*', className: 'multiplicacao', action: handleSumNumber},
+    {label: '=', className: 'total', action: handleSumNumber},
+
+    {label: ',', className: 'ponto', action: handleAddNumber},
+    {label: '0', className: 'zero', action: handleAddNumber},
+    {label: '1', className: 'primeiro', action: handleAddNumber},
+    {label: '2', className: 'segundo',action: handleAddNumber},
+    {label: '3', className: 'terceiro',action: handleAddNumber},
+    {label: '4', className: 'quarto',action: handleAddNumber},
+    {label: '5', className: 'quinto',action: handleAddNumber},
+    {label: '6', className: 'sexto',action: handleAddNumber},
+    {label: '7', className: 'setimo',action: handleAddNumber},
+    {label: '8', className: 'oitavo',action: handleAddNumber},
+    {label: '9', className: 'nono',action: handleAddNumber}
   ];
   
   return (
@@ -41,7 +62,7 @@ const App = ()=>{
             key={index}
             label={botao.label}
             className={botao.className}
-            onclick={()=> handleNumber(botao.label, botao.action)} 
+            onclick={()=> botao.action(botao.label)}
           />
         ))}
       </Content>
