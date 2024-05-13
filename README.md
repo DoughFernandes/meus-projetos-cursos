@@ -1,9 +1,12 @@
-# Seja Bem-Vindo😄🥳
 
->![Perfil](/Imagens/avatar%20doug.png)
+# Olá, Seja Bem Vindo 😊🖥️
 
-``` html
- Meu nome é <b>Douglas Souza</b> e sou um desenvolvedor apaixonado por inovação e criatividade. Atualmente, estou trabalhando em varios projetos e aprendendo muito sobre desenvolvimento Front-End. Adoro criar novos projetos e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
+![Perfil](./assets/img/avatar%20doug.png)
+
+``` javascript
+ Meu nome é <b>Douglas Souza</b> e sou um desenvolvedor apaixonado por inovação e criatividade.
+ Atualmente, estou trabalhando em varios projetos e aprendendo muito sobre desenvolvimento Front-End,
+ Adoro criar novos projetos e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
 ```
 
 ## Como me Encontrar
@@ -19,7 +22,7 @@ E-mail ✉️: dfdsf1996@gmail.com
 Telefone 📱: (11)95582-4702
 ```
 
-## Olá! Seja Bem-Vindo aos meus Projetos 😊🖥️
+## Esse são meus Projetos 😊🖥️
 
 Muito obrigado por dedicar seu tempo para explorar meus projetos no GitHub! Sua presença é muito apreciada. Se tiver alguma dúvida ou feedback, não hesite em compartilhar. 🙌🚀
 
@@ -27,13 +30,15 @@ Muito obrigado por dedicar seu tempo para explorar meus projetos no GitHub! Sua 
 
 ## GameFlix
 
-![Perfil](/Imagens/GameFlix.png)
-
-Este é um projeto de uma página do meu canal gamer que fiz usando HTML, CSS.
+![Perfil](./assets/img/GameFlix.png)
 
 ## Detalhes dos Projeto
 
-- **Tecnologias Frontend:** HTML, CSS.
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Interação com cards e menus.
 
 Você pode ver o código do projeto aqui.
@@ -45,14 +50,17 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/gameflix
 
 ## Coffee Shop
 
-![Perfil](/Imagens/coffee.gif)
-
-Este é um projeto de uma cafeteria que fiz usando HTML, CSS, JAVASCRIPT, BOOTSTRAP.
+![Perfil](./assets/img/coffee.gif)
 
 ## Detalhes dos Projeto
 
-- **Tecnologias Frontend:** HTML, CSS, BOOTSTRAP
-- **Linguagem de Programação:** JAVASCRIPT
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Bootstrap](https://img.shields.io/badge/bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=264CE4)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Interação com cards e menus.
 
 Você pode ver o código do projeto aqui.
@@ -64,9 +72,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/coffe
 
 ## Pokemon-Pokedex
 
-![Perfil](/Imagens/Pokedex.gif)
-
-Este projeto é uma implementação de uma Pokedex usando JavaScript e a API PokeAPI.
+![Perfil](./assets/img/Pokedex.gif)
 
 ```html
 <h1>Objetivo do Projeto</h1>
@@ -84,8 +90,13 @@ Este projeto é uma implementação de uma Pokedex usando JavaScript e a API Pok
 
 ## Detalhes do Projeto
 
-- **Tecnologias Frontend:**  HTML, CSS.
-- **Linguagem de Programação:**  JAVASCRIPT.
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **API:** pokeAPI.
 
 Você pode ver o código do projeto aqui.
@@ -98,9 +109,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/pokedex
 
 ## Spider-Man 🕸️🕷️
 
-![Perfil](/Imagens/Spider-Man-multiverso.gif)
-
-Este é um projeto fascinante que explora o multiverso do Spider-Man! Aqui estão os principais destaques.
+![Perfil](./assets/img/Spider-Man-multiverso.gif)
 
 ```html
 <h1>Objetivo do Projeto</h1>
@@ -120,8 +129,13 @@ Este é um projeto fascinante que explora o multiverso do Spider-Man! Aqui estã
 
 ## Detalhes do Projeto
 
-- **Tecnologias Frontend:** HTML, CSS.
-- **Linguagem de Programação:** JAVASCRIPT.
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 
 Você pode ver o código do projeto aqui.
 
@@ -133,14 +147,17 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/MultiversoSpider
 
 ## Vagalumes
 
-![Perfil](/Imagens/Vagalumes.gif)
-
-Este é um projeto simples de uma imagen animada que fiz usando HTML, CSS, JAVASCRIPT.
+![Perfil](./assets/img/Vagalumes.gif)
 
 ## Detalhes dos Projeto
 
-- **Tecnologias Frontend:** HTML, CSS
-- **Linguagem de Programação:** JAVASCRIPT
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Uma imagen simples e demostrativa visual,Não a interação entre páginas e objetos na tela.
 
 Você pode ver o código do projeto aqui.
@@ -152,14 +169,18 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Vagalumes
 
 ## Mata Mosquito
 
-![Perfil](/Imagens/MataMosquito.gif)
-
-Este é um projeto simples de um jogo que fiz usando HTML, CSS, JAVASCRIPT, BOOTSTRAP.
+![Perfil](./assets/img/MataMosquito.gif)
 
 ### Detalhes dos Projeto
 
-- **Tecnologias Frontend:** HTML, CSS, BOOTSTRAP
-- **Linguagem de Programação:** JAVASCRIPT
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow)
+![Bootstrap](https://img.shields.io/badge/bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=264CE4)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Um jogo simples e demostrativa visual, interação entre páginas e objetos na tela.
 
 Você pode ver o código do projeto aqui.
@@ -171,14 +192,17 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/JogoMataMosquito
 
 ## Calculadora em JavaScript
 
-![Perfil](/Imagens/Calculadora.gif)
-
-Este é um projeto simples de uma calculadora web que fiz usando HTML, CSS e JavaScript.
+![Perfil](./assets/img/Calculadora.gif)
 
 ### Detalhes dos Projeto
 
-- **Linguagem de Programação:** JavaScript
-- **Tecnologias Frontend:** HTML, CSS
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=React&logoColor=264CE4)
+
 - **Funcionalidades:** Esta calculadora pode realizar operações básicas como adição, subtração, multiplicação e divisão.
 
 Você pode ver o código do projeto aqui.
@@ -190,13 +214,17 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Calculadora
 
 ## Página web efeito parallax
 
-![Perfil](/Imagens/capa-parallax.gif)
-
-Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
+![Perfil](./assets/img/capa-parallax.gif)
 
 ### Detalhes do Projeto
 
-- **Tecnologias Frontend:** HTML, CSS, Bootstrap
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Bootstrap](https://img.shields.io/badge/bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=264CE4)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Uma página unica e simples, com efeito de posição de imagem
 
 Você pode ver o código do projeto aqui.
@@ -208,13 +236,17 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Efeito-Parallax
 
 ## Página web Spotify
 
-![Perfil](/Imagens/Spotify.gif)
-
-Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
+![Perfil](./assets/img/Spotify.gif)
 
 ### Detalhes do Projeto
 
-- **Tecnologias Frontend:** HTML, CSS, Bootstrap
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Bootstrap](https://img.shields.io/badge/bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=264CE4)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Uma página semelhante ao spotify
 
 Você pode ver o código do projeto aqui.
@@ -226,13 +258,17 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Spotify
 
 ## Página web Finans
 
-![Perfil](/Imagens/PaginaResponsiva.gif)
-
-Este é um projeto simples de uma página web que fiz usando HTML, CSS e Bootstrap.
+![Perfil](./assets/img/PaginaResponsiva.gif)
 
 ### Detalhes do Projeto
 
-- **Tecnologias Frontend:** HTML, CSS, Bootstrap
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Bootstrap](https://img.shields.io/badge/bootstrap-000?style=for-the-badge&logo=bootstrap&logoColor=264CE4)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Uma página Responsiva
 
 Você pode ver o código do projeto aqui.
@@ -244,12 +280,16 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/finans
 
 ## Página web Museu Nacional
 
-![Perfil](/Imagens/MuseuNacional.gif)
+![Perfil](./assets/img/MuseuNacional.gif)
 
-Este é um projeto simples de uma página web que fiz usando HTML, CSS.
 ### Detalhes do Projeto
 
-- **Tecnologias Frontend:** HTML, CSS
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Uma página simples e demostrativa visual.
 
 Você pode ver o código do projeto aqui.
@@ -261,12 +301,16 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/MuseuNacional
 
 ## Página web Chalé do zé
 
-![Perfil](/Imagens/Chale.gif)
+![Perfil](./assets/img/Chale.gif)
 
-Este é um projeto simples de uma página web que fiz usando HTML, CSS.
 ### Detalhes do Projeto
 
-- **Tecnologias Frontend:** HTML, CSS
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
 - **Funcionalidades:** Uma página simples e demostrativa visual.
 
 Você pode ver o código do projeto aqui.
@@ -278,17 +322,22 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 
 ## Página web noticias cidade
 
-![Perfil](/Imagens/Noticia.gif)
+![Perfil](./assets/img/Noticia.gif)
 
-Este é um projeto simples de um site web que fiz usando HTML, CSS.
 ### Detalhes do Projeto
 
-- **Tecnologias Frontend:** HTML, CSS
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
+![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
+
+
 - **Funcionalidades:** Um site simples e demostrativa visual, interação entre páginas e links.
 
 Você pode ver o código do projeto aqui.
 
-```js
+```html
 https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 ```
 
@@ -303,6 +352,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 ![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc)
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
+![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=React&logoColor=264CE4)
 
 ```` html
 Todos os contéudos foram feito por Douglas Souza.
