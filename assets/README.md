@@ -1,6 +1,9 @@
-# Seja Bem-Vindo😄🥳
+<link rel="stylesheet" href="./style.css">
 
->![Perfil](/Imagens/avatar%20doug.png)
+<h1 class="h1">Olá, seja bem vindo</h1>
+
+<!-- >![Perfil](/Imagens/avatar%20doug.png) -->
+<img src="./Imagens/avatar doug.png" alt="Avatar" width="300">
 
 ``` html
  Meu nome é <b>Douglas Souza</b> e sou um desenvolvedor apaixonado por inovação e criatividade. Atualmente, estou trabalhando em varios projetos e aprendendo muito sobre desenvolvimento Front-End. Adoro criar novos projetos e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
@@ -303,6 +306,7 @@ https://github.com/DoughFernandes/MeusProjetos/tree/main/Chalé
 ![Vscode](https://img.shields.io/badge/Vscode-black?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc)
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
+![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=React&logoColor=264CE4)
 
 ```` html
 Todos os contéudos foram feito por Douglas Souza.

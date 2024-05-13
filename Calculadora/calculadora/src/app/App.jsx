@@ -18,16 +18,15 @@ const App = ()=>{
       setFirstNumber('0');
     }
     if(num === '+' || num === '-' || num === '/' || num === '*' || num === ''){
-      setFirstNumber(currentNumber);
+      setFirstNumber(Number(currentNumber));
       setAction(num);
       setCurrentNumber('0');
     } 
     if(num === '='){
       // eslint-disable-next-line no-eval
-      const resultado = eval(`${firstNumber} ${action} ${currentNumber}`);
+      const resultado = eval(`${Number(firstNumber)} ${action} ${Number(currentNumber)}`);
       
-      setFirstNumber(resultado);
-      setCurrentNumber(resultado);
+      setCurrentNumber(Number(resultado));
     }
   }
 
@@ -40,7 +39,6 @@ const App = ()=>{
     {label: '*', className: 'multiplicacao', action: handleSumNumber},
     {label: '=', className: 'total', action: handleSumNumber},
 
-    {label: ',', className: 'ponto', action: handleAddNumber},
     {label: '0', className: 'zero', action: handleAddNumber},
     {label: '1', className: 'primeiro', action: handleAddNumber},
     {label: '2', className: 'segundo',action: handleAddNumber},

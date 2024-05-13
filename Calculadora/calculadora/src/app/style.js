@@ -14,12 +14,12 @@ export const Content = styled.div`
   height: 400px;
   display: grid;
     grid-template:
-      "input input input input" 100px
+      "input input input input" 120px
       "limpar limpar multiplicacao divisao" auto
       "setimo oitavo nono subtracao" auto
       "quarto quinto sexto somar" auto
       "primeiro segundo terceiro total" auto
-      "zero zero ponto total" auto
+      "zero zero zero total" auto
       / 1fr 1fr 1fr 1fr 
     ;
   gap: .5rem;

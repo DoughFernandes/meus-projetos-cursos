@@ -1,20 +1,26 @@
 .limpar{
     grid-area: limpar;
+    background: rgb(247, 81, 81)!important;
 }
 .divisao{
-    grid-area: divisao;  
+    grid-area: divisao;
+    background: rgb(247, 81, 81)!important;
 }
 .multiplicacao{
     grid-area: multiplicacao;
+    background: rgb(247, 81, 81)!important;
 }
 .soma{
     grid-area: somar;
+    background: rgb(247, 81, 81)!important;
 }
 .subtracao{
     grid-area: subtracao;
+    background: rgb(247, 81, 81)!important;
 }
 .total{
     grid-area: total;
+    background: rgb(247, 81, 81)!important;
 }
 .ponto{
     grid-area: ponto;
