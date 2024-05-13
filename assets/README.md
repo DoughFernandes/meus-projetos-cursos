@@ -1,9 +1,3 @@
-<link rel="stylesheet" href="./style.css">
-
-<h1 class="h1">Olá, seja bem vindo</h1>
-
-<!-- >![Perfil](/Imagens/avatar%20doug.png) -->
-<img src="./Imagens/avatar doug.png" alt="Avatar" width="300">
 
 ``` html
  Meu nome é <b>Douglas Souza</b> e sou um desenvolvedor apaixonado por inovação e criatividade. Atualmente, estou trabalhando em varios projetos e aprendendo muito sobre desenvolvimento Front-End. Adoro criar novos projetos e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
