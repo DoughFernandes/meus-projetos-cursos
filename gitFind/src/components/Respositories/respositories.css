@@ -1,0 +1,13 @@
+.respositorios{
+    margin-top: 2rem;
+    border-bottom: 1px solid #FFFFFF;
+}
+.respositorios a{
+    color: rgb(102, 102, 234);
+}
+.respositorios p{
+    width: 80%;
+    font-size: .8rem;
+    color: rgb(114, 114, 114);
+    margin: 1rem 0;
+}
