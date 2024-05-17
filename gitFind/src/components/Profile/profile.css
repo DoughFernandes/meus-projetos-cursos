@@ -1,0 +1,27 @@
+.profile{
+    padding: 2rem 0 ;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #FFFFFF;
+}
+.photo{
+    max-width: 5rem;
+    border-radius: 5rem;
+    border: 1px solid #FFFFFF;
+    margin-right: 1rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.description small{
+    font-size: .6rem;
+    color: #afafaf;
+}
+.description p{
+    margin: 1rem 0;
+    font-size: .8rem;
+    color: #afafaf;
+}
