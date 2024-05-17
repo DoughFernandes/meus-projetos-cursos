@@ -1,8 +1,8 @@
 import './respositories.css'
 
-const Repositories = (name, description)=>{
+const Repositories = ({id, name, description})=>{
   return (
-    <section className='respositorios'>
+    <section key={id} className='respositorios'>
         <h5>{name}</h5>
         <p>{description}</p>
     </section>

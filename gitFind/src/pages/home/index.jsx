@@ -22,13 +22,15 @@ function App() {
       
       const reposData = await fetch(`https://api.github.com/users/${user}/repos`);
       const newRepos = await reposData.json();
+      console.log(newRepos)
 
       if(newRepos.length){
-        setRepos(newRepos);
+        return setRepos(newRepos);
       }else{
-        console.log('Error getting')
+        alert('Nenhum repositório encontrado');
       }
     }
+    console.logo(repos)
   }
 
   return (
@@ -58,27 +60,29 @@ function App() {
             </button>
 
               {currentUser?.name ? (
-                <Profile
-                  key={currentUser.name}
-                  avatar={currentUser.avatar_url}
-                  name={currentUser.name}
-                  bio={currentUser.bio}
-                  login={currentUser.login}/>
+                <>
+                  <Profile
+                    key={currentUser.name}
+                    avatar={currentUser.avatar_url}
+                    name={currentUser.name}
+                    bio={currentUser.bio}
+                    login={currentUser.login}
+                  />
+                </>
               ): null}
 
-              {currentUser?.name ? (
+              {repos?.length ? (
                 <>
-                  <div className='respositorios'>
-                    <h1>Repositórios</h1>
-                    {/* {repos.map(repo =>(
-                      <Repositories 
+                  {repos.map((repo) => (
+                      <Repositories
+                        key={repo.id}
                         name={repo.name}
                         description={repo.description}
                       />
-                    ))} */}
-                 </div>
+                  ))}
                 </>
-              ): null}
+              ):null}
+
           </div>
         </aside>
       </section>
