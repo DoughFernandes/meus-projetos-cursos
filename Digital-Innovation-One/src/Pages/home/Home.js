@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const Container =styled.main`
+    height: 85vh;
     width: 100%;
-    margin: 4rem 0 2rem 0;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 2rem;
 `;
 
 export const Tittle =styled.h2`

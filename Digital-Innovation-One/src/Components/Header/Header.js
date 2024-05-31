@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: .5rem 0;
     display: flex;
     justify-content: space-around;
@@ -22,13 +22,13 @@ export const Column = styled.div`
     align-items: center;
 `;
 
-export const Wrapper = styled.div`
-    background: #151515;
+export const Wrapper = styled.header`
+
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: #151515;
 `;
 
 export const BuscarInputContainer = styled.div`
