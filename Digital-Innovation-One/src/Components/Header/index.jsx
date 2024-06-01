@@ -12,25 +12,36 @@ import {
     // Column,
     Input,
     Menu,
-    Row
+    Row,
+    UserPicture
 } from "./Header";
 
-const Header = ()=>{
+const Header = ({autentic})=>{
     return (
         <Wrapper>
             <Container>
                 <Row>
                     <img src={Logo} alt="logo DIO" width={100} />
-                    <BuscarInputContainer>
-                        <Input placeholder='Buscar'/>
-                    </BuscarInputContainer>
-                    <Menu>Ao vivo</Menu>
-                    <Menu>Global</Menu>
+                    {autentic ? (
+                        <>
+                            <BuscarInputContainer>
+                            <Input placeholder='Buscar'/>
+                            </BuscarInputContainer>
+                            <Menu>Ao vivo</Menu>
+                            <Menu>Global</Menu>
+                        </>
+                    ) : null}
                 </Row>
                 <Row>
-                    <MenuRight href='#'>Home</MenuRight>
-                    <Button tittle='Entrar' />
-                    <Button tittle='Cadastrar' />
+                    {autentic ? (
+                        <UserPicture src='https://avatars.githubusercontent.com/u/152017678?v=4'/>
+                    ) : (
+                        <>
+                            <MenuRight href='#'>Home</MenuRight>
+                            <Button tittle='Entrar' />
+                            <Button tittle='Cadastrar' />
+                        </>
+                    )}
                 </Row>
             </Container>
         </Wrapper>

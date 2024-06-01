@@ -1,9 +1,9 @@
 import React from 'react';
 import { ButtonContainer } from "./Button";
 
-const Button = ({variant='primary', tittle})=>{
+const Button = ({variant='primary', tittle, onclick, type})=>{
     return (
-        <ButtonContainer variant={variant} >
+        <ButtonContainer type={type} variant={variant} onClick={onclick}>
             {tittle}
         </ButtonContainer>
     );

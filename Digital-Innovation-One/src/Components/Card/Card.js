@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div`
-    width: 100%;
+export const CardContainer = styled.section`
+    min-width: 500px;
+    width: 98%;
     background: #384652;
-    margin-bottom: 1rem;
+    margin-left: .5rem;
 `;
 
 export const ImageBackground = styled.img`
@@ -12,7 +13,7 @@ export const ImageBackground = styled.img`
 `;
 
 export const Content = styled.div`
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     padding: 1rem;

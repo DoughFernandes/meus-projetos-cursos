@@ -42,7 +42,7 @@ export const BuscarInputContainer = styled.div`
 
 export const Menu = styled.a`
     font-style: normal;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 25px;
     margin-right: 1rem;
 `;
