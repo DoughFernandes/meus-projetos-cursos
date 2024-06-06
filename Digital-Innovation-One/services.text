@@ -1,0 +1,47 @@
+# Bibliotecas: 
+
+React routed: (
+    npm install react-router-dom 
+    yarn add react-router-dom
+    link: https://reactrouter.com/en/main
+)
+
+styled components: (
+    npm install styled-components
+    yarn add styled-components
+    link: https://styled-components.com/
+)
+
+React hook forms: (
+    npm install react-hook-form
+    yarn add react-hook-form
+    link: https://react-hook-form.com/
+)
+
+React Icons: (
+    yarn add @mui/icons-material @mui/material @emotion/styled @emotion/react
+    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    link: https://mui.com/material-ui/material-icons/
+)
+
+React Axios: (
+    details: Manipulação e requisições de API.
+    npm install axios
+    yarn add axios
+    link: https://axios-http.com/docs/intro
+)
+
+react yup: (
+    details: formas de válidação de campos quando requisitados login ou cadastro e todo tipo de cadastro do cliente.
+    npm i yup
+    yarn add yup
+    link: https://www.npmjs.com/package/yup
+)
+
+Json server (
+    details: server de criação de APIs
+    yarn add json-server
+    npm install json-server
+    npx json-server db.json
+    link: https://www.npmjs.com/package/json-server
+)
