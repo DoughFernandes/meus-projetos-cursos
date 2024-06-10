@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
     
     *{
         font-family: "Open Sans", sans-serif;
@@ -19,4 +19,6 @@ export const GlobalStyles = createGlobalStyle`
         align-items: flex-start;
     }
 
-`
+`;
+
+export { GlobalStyles };

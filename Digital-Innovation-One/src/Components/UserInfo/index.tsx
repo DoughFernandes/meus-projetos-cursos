@@ -1,4 +1,4 @@
-import React from 'react';
+import { IUserInfo } from './type';
 
 import {
     Container,
@@ -7,10 +7,12 @@ import {
     Progress
 } from './userInfo';
 
-const UserInfo = ({name, image, percentual})=>{
+// -----------------------------------------------------
+
+const UserInfo = ({name, imagem, percentual}: IUserInfo)=>{
   return (
     <Container>
-        <UserPicture src={image} />
+        <UserPicture src={imagem} />
         <div>
             <NameText>{name}</NameText>
             <Progress percentual={percentual}/>

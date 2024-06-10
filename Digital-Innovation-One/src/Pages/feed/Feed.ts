@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { IColumn } from "./type";
 
 export const Container =styled.main`
     width: 100%;
@@ -29,6 +30,6 @@ export  const TittleHighLight =styled.h3`
     margin: 1rem;
 `;
 
-export const Column =styled.div`
+export const Column =styled.div<IColumn>`
     flex: ${({flex})=> flex};
 `;

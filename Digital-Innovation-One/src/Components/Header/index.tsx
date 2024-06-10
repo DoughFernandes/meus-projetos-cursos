@@ -1,23 +1,21 @@
-import React from 'react';
 import { useNavigate } from "react-router-dom";
-
+import { IHeader } from './types';
 import Logo from '../../Assets/Img/Logo_dio.png'
-
 import { Button } from '../Button';
 import { 
     BuscarInputContainer,
-    // UserPicture,
     Container,
     MenuRight,
     Wrapper,
-    // Column,
     Input,
     Menu,
     Row,
     UserPicture
 } from "./Header";
 
-const Header = ({autentic})=>{
+// ---------------------------------------------------------------
+
+const Header = ({autentic}: IHeader)=>{
     const navigate = useNavigate();
 
     const handleClickSignIn = ()=>{

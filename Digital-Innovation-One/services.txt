@@ -45,3 +45,11 @@ Json server (
     npx json-server db.json
     link: https://www.npmjs.com/package/json-server
 )
+
+typescript (
+    yarn add typescript @types/node @types/react @types/react-dom @types/jest -D
+        ( npx tsc --init ) para iniciar o typescrip
+        ( yarn add @types/styled-components -D ) para mudar styled para styled em typescript
+    -D (usado para apenas para ambiente de desenvolvimento, não subir para projeto real)
+    Link: https://www.typescriptlang.org/
+)

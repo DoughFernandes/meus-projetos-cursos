@@ -1,7 +1,5 @@
-import React from "react";
 import { FiThumbsUp } from 'react-icons/fi'
-import BannerCard from '../../Assets/Img/Banner-Card.png'
-
+import Banner from '../../Assets/Img/Banner-Card.png'
 import { 
     ImageBackground,
     CardContainer,
@@ -13,10 +11,12 @@ import {
 
  } from './Card';
 
+ // -------------------------------------
+
 const Card = ()=>{
     return(
         <CardContainer>
-           <ImageBackground src={BannerCard} />
+           <ImageBackground src={Banner} />
            <Content>
                 <UserInfo>
                     <UserPicture src="https://avatars.githubusercontent.com/u/152017678?v=4"/>
