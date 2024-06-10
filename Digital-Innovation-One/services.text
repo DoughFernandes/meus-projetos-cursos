@@ -21,7 +21,7 @@ React hook forms: (
 React Icons: (
     yarn add @mui/icons-material @mui/material @emotion/styled @emotion/react
     npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-    link: https://mui.com/material-ui/material-icons/
+    link: https://react-icons.github.io/react-icons/icons/md/
 )
 
 React Axios: (

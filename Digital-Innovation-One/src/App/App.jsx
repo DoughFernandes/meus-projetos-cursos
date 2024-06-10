@@ -1,6 +1,7 @@
 import { Home } from "../Pages/home";
 import { Login } from '../Pages/login';
 import { Feed } from '../Pages/feed';
+import { Logout } from '../Pages/logout';
 
 import {
   BrowserRouter as Router,
@@ -15,6 +16,7 @@ const App = ()=>{
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/feed" element={<Feed />} />
+        <Route path="/logout" element={<Logout />} />
       </Routes>
     </Router>
   );
