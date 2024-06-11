@@ -1,8 +1,0 @@
-.pokemon:hover{
-    transform: scale(1.1);
-    box-shadow: 5px 50px 20px grey;
-}
-button.btnCard{
-    transform: scale(1.2);
-    box-shadow: 10px 10px 30px rgb(101, 101, 101)
-}

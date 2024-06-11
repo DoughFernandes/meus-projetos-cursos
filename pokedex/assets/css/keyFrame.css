@@ -1,7 +1,0 @@
-@keyframes brightness {
-    0%{box-shadow: 0 0 50px rgb(245, 250, 139)}
-    25%{box-shadow: 0 0 150px rgb(245, 250, 139)}
-    50%{box-shadow: 0 0 50px rgb(245, 250, 139)}
-    75%{box-shadow: 0 0 150px rgb(245, 250, 139)}
-    100%{box-shadow: 0 0 50px rgb(245, 250, 139)}
-}
