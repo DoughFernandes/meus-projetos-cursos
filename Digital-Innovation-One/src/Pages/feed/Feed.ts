@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { IColumn } from "./type";
 
-export const Container =styled.main`
+export const Container = styled.main`
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -13,15 +13,15 @@ export const Container =styled.main`
     margin: 2rem 0;
 `;
 
-export const Tittle =styled.h3`
-   font-weight: 700;
-   font-size: 2rem;
-   width: 320px;
-   margin: 0 1rem;
-   line-height: 2rem;
+export const Tittle = styled.h3`
+    font-weight: 700;
+    font-size: 2rem;
+    width: 320px;
+    margin: 0 1rem;
+    line-height: 2rem;
 `;
 
-export  const TittleHighLight =styled.h3`
+export const TittleHighLight = styled.h3`
     text-align: center;
     font-weight: 700;
     font-size: 1rem;
@@ -30,6 +30,10 @@ export  const TittleHighLight =styled.h3`
     margin: 1rem;
 `;
 
-export const Column =styled.div<IColumn>`
-    flex: ${({flex})=> flex};
+interface IColumnProps extends IColumn {
+    $flex?: number;
+}
+
+export const Column = styled.div<IColumnProps>`
+    flex: ${({ $flex }) => $flex};
 `;

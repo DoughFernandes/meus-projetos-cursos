@@ -4,7 +4,6 @@ import { Card } from "../../Components/Card";
 import { UserInfo } from "../../Components/UserInfo";
 
 import {
-
     TittleHighLight,
     Container,
     Column,
@@ -13,25 +12,28 @@ import {
 
 // -----------------------------------------------------------------
 
-const Feed = ()=>{
-    return(
+const Feed = () => {
+    return (
         <>
-            <Header autentic={true}/>
+            <Header autentic={true} />
             <Container>
-                <Column flex={3}>
+                <Column $flex={3}>
                     <Tittle>Feed</Tittle>
                     <Card />
                     <Card />
                 </Column>
-                <Column flex={1}>
+                <Column $flex={1}>
                     <TittleHighLight>
                         # Rank da semana
                     </TittleHighLight>
-                    <UserInfo percentual={35} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4'/>
+                    <UserInfo percentual={35} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
+                    <UserInfo percentual={10} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
+                    <UserInfo percentual={64} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
+                    <UserInfo percentual={1} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
                 </Column>
             </Container>
         </>
-    )
+    );
 };
 
 export { Feed };

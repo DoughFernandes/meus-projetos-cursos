@@ -3,9 +3,9 @@ import { ButtonContainer } from "./Button";
 
 // -------------------------------------------------
 
-const Button = ({variant='primary', tittle, onclick }: IButton)=>{
+const Button = ({disabled, variant='primary', tittle, onclick }: IButton)=>{
     return (
-        <ButtonContainer variant={variant} onClick={onclick}>
+        <ButtonContainer disabled={disabled} variant={variant} onClick={onclick}>
             {tittle}
         </ButtonContainer>
     );

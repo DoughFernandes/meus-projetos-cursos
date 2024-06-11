@@ -35,22 +35,26 @@ const schema = yup.object({
 const Login = ()=>{
     const navigate = useNavigate();
 
-    const { control, handleSubmit, formState: {errors, isValid} }= useForm<IFormData>({
+    const { control, handleSubmit, formState: {errors, isValid} } = useForm<IFormData>({
         resolver: yupResolver(schema),
-        mode: 'onChange', 
+        mode: 'onBlur',
+        reValidateMode: 'onChange'
     });
 
     const onSubmit = async (formData: IFormData) => {
         try {
             const { data } = await api.get(`users?email=${formData.email}&senha=${formData.password}`);
+
             if (data.length === 1){
                 navigate('/feed');
             }else{
                 alert('E-mail ou senha incorretos');
             }
+
         } catch (error) {
             console.error('Erro:', error);
-            alert('Erro, tente novamente');
+            alert('E-mail ou senha está errado, tente novamente ( Por ser um server Local iremos passar para o FEED )');
+            navigate('/feed');
         }
     };
     
@@ -89,8 +93,8 @@ const Login = ()=>{
                         <Button 
                             type='submit' 
                             tittle='Entrar' 
-                            variant='secundary' 
-                            // onclick={handleClickSignIn}
+                            variant='secundary'
+                            disabled={!isValid}
                         />
                     </form>
                     <Row>
