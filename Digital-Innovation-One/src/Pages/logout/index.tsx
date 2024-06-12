@@ -70,7 +70,7 @@ const Logout = () => {
                             errorMessage={errors.password?.message}
                             name="password" 
                             control={control} 
-                            placeholder='Senha' 
+                            placeholder='password' 
                             type='password' 
                             leftIcon={<MdLock />}
                         />

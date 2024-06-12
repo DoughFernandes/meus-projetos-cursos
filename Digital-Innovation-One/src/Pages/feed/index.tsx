@@ -15,7 +15,7 @@ import {
 const Feed = () => {
     return (
         <>
-            <Header autentic={true} />
+            <Header />
             <Container>
                 <Column $flex={3}>
                     <Tittle>Feed</Tittle>
@@ -26,10 +26,11 @@ const Feed = () => {
                     <TittleHighLight>
                         # Rank da semana
                     </TittleHighLight>
-                    <UserInfo percentual={35} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
-                    <UserInfo percentual={10} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
-                    <UserInfo percentual={64} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
-                    <UserInfo percentual={1} name='Douglas Fernandes' imagem='https://avatars.githubusercontent.com/u/152017678?v=4' />
+                    <UserInfo 
+                        percentual={35} 
+                        name='Douglas Fernandes'  
+                        imagem='https://avatars.githubusercontent.com/u/152017678?v=4' 
+                    />
                 </Column>
             </Container>
         </>

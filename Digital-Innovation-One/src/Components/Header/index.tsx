@@ -1,5 +1,5 @@
-import { useNavigate } from "react-router-dom";
-import { IHeader } from './types';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link, useNavigate } from "react-router-dom";
 import Logo from '../../Assets/Img/Logo_dio.png'
 import { Button } from '../Button';
 import { 
@@ -12,10 +12,13 @@ import {
     Row,
     UserPicture
 } from "./Header";
+import { useContext } from "react";
+import { AuthContext } from "../../context/auth";
 
 // ---------------------------------------------------------------
 
-const Header = ({autentic}: IHeader)=>{
+const Header = ()=>{
+    const { user, hangleLogout }  = useContext(AuthContext);
     const navigate = useNavigate();
 
     const handleClickSignIn = ()=>{
@@ -29,8 +32,10 @@ const Header = ({autentic}: IHeader)=>{
         <Wrapper>
             <Container>
                 <Row>
-                    <img src={Logo} alt="logo DIO" width={100} />
-                    {autentic ? (
+                    <Link to='/'>
+                        <img src={Logo} alt="logo DIO" width={100} />
+                    </Link>
+                    {user.id ? (
                         <>
                             <BuscarInputContainer>
                             <Input placeholder='Buscar'/>
@@ -41,8 +46,11 @@ const Header = ({autentic}: IHeader)=>{
                     ) : null}
                 </Row>
                 <Row>
-                    {autentic ? (
-                        <UserPicture src='https://avatars.githubusercontent.com/u/152017678?v=4'/>
+                    {user.id ? (
+                        <>
+                            <UserPicture src='https://avatars.githubusercontent.com/u/152017678?v=4'/>
+                           <a href="#" onClick={hangleLogout} >Sair</a>
+                        </>
                     ) : (
                         <>
                             <MenuRight href='#'>Home</MenuRight>
