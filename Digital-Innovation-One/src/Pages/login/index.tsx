@@ -1,8 +1,6 @@
 //Componentes
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
-import { useContext } from 'react';
-import { AuthContext } from "../../context/auth";
 import * as yup from 'yup';
 
 import { Header } from "../../Components/Header";
@@ -23,6 +21,7 @@ import {
     Tittle,
     Row
 } from './Login'
+import { useAuth } from "../../hooks/userAuth";
 
 
 // ----------------------------------------------------------------------
@@ -33,7 +32,7 @@ const schema = yup.object({
 }).required();
 
 const Login = ()=>{
-    const { hangleLogin } = useContext(AuthContext);
+    const { hangleLogin } = useAuth();
 
     const { control, handleSubmit, formState: {errors, isValid} } = useForm<IFormData>({
         resolver: yupResolver(schema),
@@ -73,7 +72,7 @@ const Login = ()=>{
                             errorMessage={errors.password?.message}
                             name="password" 
                             control={control} 
-                            placeholder='password' 
+                            placeholder='Senha' 
                             type='password' 
                             leftIcon={<MdLock />}
                         />
@@ -85,7 +84,7 @@ const Login = ()=>{
                         />
                     </form>
                     <Row>
-                        <EsqueciText>Esqueci minha password</EsqueciText>
+                        <EsqueciText>Esqueci minha senha</EsqueciText>
                         <CriarTexte>Criar uma conta</CriarTexte>
                     </Row>
                    </Wrapper>

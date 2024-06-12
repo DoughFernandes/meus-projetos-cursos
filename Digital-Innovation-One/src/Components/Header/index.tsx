@@ -12,13 +12,12 @@ import {
     Row,
     UserPicture
 } from "./Header";
-import { useContext } from "react";
-import { AuthContext } from "../../context/auth";
+import { useAuth } from "../../hooks/userAuth";
 
 // ---------------------------------------------------------------
 
 const Header = ()=>{
-    const { user, hangleLogout }  = useContext(AuthContext);
+    const { user, hangleLogout }  = useAuth();
     const navigate = useNavigate();
 
     const handleClickSignIn = ()=>{
