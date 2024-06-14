@@ -4,7 +4,7 @@ import Pokebola from '../../assets/gif/pokebola.gif'
 
 const Header = ()=>{
     return (
-        <Container>
+        <Container >
             <Input />
             <img height={30} src={Pokebola} alt="pokebola" />
         </Container>

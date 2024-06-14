@@ -1,18 +1,15 @@
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+import { Button } from "../Button";
 
 import { 
     ContainerInput,
-    InputText,
-    Button
+    InputText
 } from "./Input";
 
 const Input = ()=>{
     return(
         <ContainerInput>
-            <Button>
-                <PiMagnifyingGlassBold />
-            </Button>
-            <InputText />
+            <Button />
+            <InputText title="Search"/>
         </ContainerInput>
     )
 };

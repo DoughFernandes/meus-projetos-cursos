@@ -29,18 +29,3 @@ export const InputText = styled.input`
         color: #000;
     }
 `;
-
-export const Button = styled.button`
-    display: flex;
-    algin-items: flex;
-    padding: .3rem .4rem;
-    background: #C40005;
-    border: none;
-    color: #FFFFFF;
-    font-size: 1.5rem;
-    cursor: pointer;
-
-    &:hover {
-        opacity: .6;
-    }
-`;
