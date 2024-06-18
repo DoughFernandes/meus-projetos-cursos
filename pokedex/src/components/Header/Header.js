@@ -15,3 +15,9 @@ export const Container = styled.header`
         border-left: 3px solid #C40005;
     }
 `;
+
+export const Search = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;

@@ -32,7 +32,7 @@ export const Column = styled.section`
     gap: 1rem;
 
     &.hide-on-small {
-        @media (max-width: 1200px) {
+        @media (max-width: 900px) {
             display: none;
         }
     }

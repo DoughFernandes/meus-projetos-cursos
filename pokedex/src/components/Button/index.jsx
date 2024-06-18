@@ -1,10 +1,9 @@
 import { ButtonSearch } from './Button';
-import { PiMagnifyingGlassBold } from "react-icons/pi";
 
-const Button = ()=>{
+const Button = ({type, title, onClick})=>{
     return(
-        <ButtonSearch title='Search' type='submit'>
-            <PiMagnifyingGlassBold />
+        <ButtonSearch title='Search' type={type} onClick={onClick}>
+            {title}
         </ButtonSearch>
     )
 };

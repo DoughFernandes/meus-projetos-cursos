@@ -1,15 +1,17 @@
-import { Button } from "../Button";
-
 import { 
     ContainerInput,
     InputText
 } from "./Input";
 
-const Input = ()=>{
+const Input = ({value, onChange})=>{
     return(
         <ContainerInput>
-            <Button />
-            <InputText title="Search"/>
+            <InputText
+                title="Search"
+                value={value}
+                onChange={onChange}
+                placeholder="Charmander"
+            />
         </ContainerInput>
     )
 };

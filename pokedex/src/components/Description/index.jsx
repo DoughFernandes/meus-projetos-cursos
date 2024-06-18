@@ -8,9 +8,14 @@ import {
 
 import PokemonTypes from '../PokemonTypes';
 import Pokemon from "../Pokemon";
+import usePokemon from "../../hook/usePokemon";
 
+// -----------------------------
 
 const DescriptionContainer = ()=>{
+    const { data } = usePokemon();
+    console.log(data);
+
     return(
         <ContainerDescription>
             <Column>
