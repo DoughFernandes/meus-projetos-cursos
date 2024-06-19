@@ -32,7 +32,7 @@ const schema = yup.object({
 const Logout = () => {
     const navigate = useNavigate();
 
-    const { control, handleSubmit, formState: {errors} }= useForm({
+    const { control, formState: {errors} }= useForm({
         resolver: yupResolver(schema),
         mode: 'onChange', 
     });
