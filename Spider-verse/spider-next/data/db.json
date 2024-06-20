@@ -1,0 +1,115 @@
+{
+    "data": [
+      {
+        "id": "spider-man-616",
+        "name": "Homem-Aranha",
+        "details": {
+          "Fullname": "Peter B. Parker",
+          "birthday": "1980-08-27",
+          "homeland": "Queens, Nova Iorque",
+          "height": "1.78",
+          "weight": "75.75"
+        }
+      },
+      {
+        "id": "spider-woman-65",
+        "name": "Mulher-Aranha",
+        "details": {
+          "Fullname": "Gwen Stacy",
+          "birthday": "1995-10-14",
+          "homeland": "Queens, Nova Iorque",
+          "height": "1.70",
+          "weight": "57.5"
+        }
+      },
+      {
+        "id": "spider-man-1610",
+        "name": "Homem-Aranha",
+        "details": {
+          "Fullname": "Miles Morales",
+          "birthday": "2002-05-02",
+          "homeland": "Brooklyn, Nova Iorque",
+          "height": "1.73",
+          "weight": "68.0"
+        }
+      },
+      {
+        "id": "spider-man-928",
+        "name": "Homem-Aranha",
+        "details": {
+          "Fullname": "Miguel O'Hara",
+          "birthday": "1988-11-11",
+          "homeland": "Nueva York, Terra 928",
+          "height": "1.80",
+          "weight": "77.1"
+        }
+      },
+      {
+        "id": "spider-woman-616",
+        "name": "Mulher-Aranha",
+        "details": {
+          "Fullname": "Jessica Drew",
+          "birthday": "1985-04-10",
+          "homeland": "Londres, Inglaterra",
+          "height": "1.78",
+          "weight": "58.0"
+        }
+      },
+      {
+        "id": "spider-man-90214",
+        "name": "Homem-Aranha",
+        "details": {
+          "Fullname": "Ben Reilly",
+          "birthday": "1975-08-05",
+          "homeland": "Nova Iorque, Nova Iorque",
+          "height": "1.80",
+          "weight": "74.8"
+        }
+      },
+      {
+        "id": "spider-girl-982",
+        "name": "Garota-Aranha",
+        "details": {
+          "Fullname": "May 'Mayday' Parker",
+          "birthday": "2003-06-30",
+          "homeland": "Forest Hills, Nova Iorque",
+          "height": "1.65",
+          "weight": "52.2"
+        }
+      },
+      {
+        "id": "spider-man-14512",
+        "name": "Homem-Aranha",
+        "details": {
+          "Fullname": "Kaine Parker",
+          "birthday": "1980-09-12",
+          "homeland": "Houston, Texas",
+          "height": "1.83",
+          "weight": "82.1"
+        }
+      },
+      {
+        "id": "spider-woman-1610",
+        "name": "Mulher-Aranha",
+        "details": {
+          "Fullname": "Cindy Moon",
+          "birthday": "1995-02-19",
+          "homeland": "Queens, Nova Iorque",
+          "height": "1.67",
+          "weight": "55.0"
+        }
+      },
+      {
+        "id": "spider-man-833",
+        "name": "Homem-Aranha",
+        "details": {
+          "Fullname": "Pavitr Prabhakar",
+          "birthday": "1990-12-21",
+          "homeland": "Mumbai, Índia",
+          "height": "1.75",
+          "weight": "70.0"
+        }
+      }
+    ]
+  }
+  
