@@ -1,4 +1,4 @@
-export interface IHeroesData {
+export interface IHeroeData {
   id: string;
   name: string;
   universe: number;
@@ -8,5 +8,5 @@ export interface IHeroesData {
     homeland: string;
     height: number;
     weight: number;
-  }
+  };
 }

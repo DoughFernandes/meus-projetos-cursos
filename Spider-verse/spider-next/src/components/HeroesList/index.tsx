@@ -1,19 +1,19 @@
-import '@/components/HeroesList';
-import { IHeroesData } from '@/interface/heroes';
+import styles from './heroes.scss';
+import spiderFont from '@/fonts';
+import { IHeroeData } from '@/interface/heroes';
 
 interface IProps {
-  heroes: IHeroesData[];
-};
+  heroes: IHeroeData[];
+}
 
 const HeroesList = ({ heroes }: IProps) => {
   return (
-    <>
-      {heroes.map((hero) => (
-        <p key={hero.id}>
-          {hero.name}
-        </p>
-      ))}
-    </>
+    <section
+      className={`${styles}
+      ${spiderFont.className}`}
+    >
+      <h1>PERSONAGENS</h1>
+    </section>
   );
 };
 
