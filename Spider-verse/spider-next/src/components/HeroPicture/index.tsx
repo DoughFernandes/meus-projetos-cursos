@@ -10,7 +10,7 @@ import spider90214 from '@public/spiders/spider-man-90214.png';
 import spider928 from '@public/spiders/spider-man-928.png';
 
 const heroesImage: Record<string, StaticImageData> = {
-  "spider-ma-616": Spider616,
+  "spider-man-616": Spider616,
   "spider-woman-65": Spider65,
   "spider-man-1610": Spider1610,
   "sp-dr-14512": sp14512,
@@ -25,7 +25,7 @@ interface IProps {
 
 const HeroPicture = ({ hero }: IProps) => {
   return (
-    <Image 
+    <Image
       src={heroesImage[hero.id]}
       alt={`${hero.name} (Universe-${hero.universe})`}
       priority

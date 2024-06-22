@@ -1,5 +1,13 @@
 main{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  position: relative;
+  
+  @media screen and (max-width: 420px) {
+    margin-top: 50%;
+    justify-content: center;
+    align-items: center;
+  }
 }
