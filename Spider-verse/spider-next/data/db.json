@@ -5,7 +5,7 @@
         "name": "Homem-Aranha",
         "universe": 616,
         "details": {
-          "Fullname": "Peter B. Parker",
+          "fullName": "Peter B. Parker",
           "birthday": "1980-08-27",
           "homeland": "Queens, Nova Iorque",
           "height": 1.78,
@@ -17,7 +17,7 @@
         "name": "Mulher-Aranha",
         "universe": 65,
         "details": {
-          "Fullname": "Gwen Stacy",
+          "fullName": "Gwen Stacy",
           "birthday": "1995-10-14",
           "homeland": "Queens, Nova Iorque",
           "height": 1.70,
@@ -29,7 +29,7 @@
         "name": "Homem-Aranha II",
         "universe": 1610,
         "details": {
-          "Fullname": "Miles Morales",
+          "fullName": "Miles Morales",
           "birthday": "2002-05-02",
           "homeland": "Brooklyn, Nova Iorque",
           "height": "1.73",
@@ -41,7 +41,7 @@
         "name": "SP//Dr",
         "universe": 14512,
         "details": {
-          "Fullname": "Peni Parker",
+          "fullName": "Peni Parker",
           "birthday": "2009-10-22",
           "homeland": "Nueva York city , New York",
           "height": "1.5",
@@ -53,7 +53,7 @@
         "name": "Porco-Aranha",
         "universe": 8311,
         "details": {
-          "Fullname": "Peter Poker",
+          "fullName": "Peter Poker",
           "birthday": "null",
           "homeland": "Queens, New York",
           "height": "1.53",
@@ -65,7 +65,7 @@
         "name": "Homem-Aranha Noir",
         "universe": 90214,
         "details": {
-          "Fullname": "Peter Parker",
+          "fullName": "Peter Parker",
           "birthday": "1933-02-09",
           "homeland": "Queens, New York",
           "height": "1.80",
@@ -77,7 +77,7 @@
         "name": "Homem-Aranha",
         "universe": 928,
         "details": {
-          "Fullname": "Miguel O`hara",
+          "fullName": "Miguel O`hara",
           "birthday": "1970-05-11",
           "homeland": "New York",
           "height": "1.78",
