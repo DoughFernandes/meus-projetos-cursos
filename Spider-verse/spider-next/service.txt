@@ -17,6 +17,11 @@ BIBLIOTECAS: (
             Estilização dos components
     }
     {
+        AXIOS FOI REMOVIDO POR NÂO SUPORTA JUNTO A GRAMER MOTION
         AXIOS: ( https://www.npmjs.com/package/axios )
+    }
+    {
+        FRAME MOTION: ( https://www.framer.com/motion/introduction/ )
+            Estilização e animação para components.
     }
 )

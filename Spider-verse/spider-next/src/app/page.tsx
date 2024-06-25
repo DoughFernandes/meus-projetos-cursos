@@ -1,16 +1,17 @@
 import { IHeroeData } from '@/interface/heroes';
 import HeroesList from '../components/HeroesList';
-import axios from 'axios';
 import style from './style/page.scss';
 
 async function getHeroesList(): Promise<IHeroeData[]> {
-  const res = await axios.get(`${process.env.DOMAIN_ORIGIN}/data`);
+  const res  = await fetch(`${process.env.DOMAIN_ORIGIN}/data`);
+  const data = await res.json();
+  // const res = await axios.get(`${process.env.DOMAIN_ORIGIN}/data`);
 
-  if (!res.data) {
+  if (!data) {
     throw new Error('FAILED TO REQUEST FROM DOMAIN');
   }
 
-  return res.data;
+  return data;
 }
 
 const Home = async () => {
