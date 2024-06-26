@@ -3,8 +3,10 @@
 :root {
   height: 100vh;
   min-width: 410px;
+  transition: 1s ease-in-out;
+  background-size: cover;
 
-  &::before{
+  &:not(.hero-page)::before{
     content: "";
     background: $background;
     height: 100%;
@@ -17,6 +19,8 @@
 
 *{
   margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body{

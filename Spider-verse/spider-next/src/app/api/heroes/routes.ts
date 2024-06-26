@@ -1,10 +1,10 @@
-import axios from 'axios';
 import { NextResponse } from 'next/server';
+
 
 export async function GET() {
   try {
-    const res = await axios.get(`${process.env.API_URL}`);
-    const data = res.data;
+    const res = await fetch(`${process.env.API_URL}/data`);
+    const data = res;
 
     return NextResponse.json({ data });
   }
