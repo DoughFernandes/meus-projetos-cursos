@@ -23,7 +23,7 @@ const Carousel = ({ heroes, activedId }: IProps) => {
   const [visibleItems, setvisibleItems] = useState<IHeroeData[] | null>(null);
 
   const [activeIndex, setactiveIndex] = useState<number>(
-    heroes.findIndex((hero) => hero.id === activedId),
+    heroes.findIndex((hero) => hero.id === activedId) - 1
   );
 
   useEffect(() => {
@@ -82,9 +82,15 @@ const Carousel = ({ heroes, activedId }: IProps) => {
           </AnimatePresence>
         </div>
       </div>
-      <ul className={styles.details}>
-        <HeroDetails data={heroes[0]} />
-      </ul>
+
+      <motion.ul
+        className={styles.details}
+        initial={{ opacity: 0 }}
+        transition={{ duration: 1.5, delay: 1 }}
+        animate={{ opacity: 1 }}
+      >
+        <HeroDetails data={visibleItems[enPosition.MIDDLE]} />
+      </motion.ul>
     </section>
   );
 };
