@@ -9,7 +9,12 @@ import styles from './carousel.module.scss';
 import { useEffect, useState } from 'react';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { getItemStyles, enPosition } from './animation';
+import useAudioResources from './songs';
+
+import { 
+  getItemStyles, 
+  enPosition
+} from './animation';
 
 // ----------------------------------------------
 
@@ -23,13 +28,14 @@ const Carousel = ({ heroes, activedId }: IProps) => {
   const [visibleItems, setvisibleItems] = useState<IHeroeData[] | null>(null);
 
   const [activeIndex, setactiveIndex] = useState<number>(
-    heroes.findIndex((hero) => hero.id === activedId) - 1
+    heroes.findIndex((hero) => hero.id === activedId) - 1,
   );
+
+  const [startInteractionPosition, setStartInteractionPosition] = useState<number>(0);
 
   useEffect(() => {
     const indexInArrayScope =
       ((activeIndex % heroes.length) + heroes.length) % heroes.length;
-    //TODO: Calculo da list de pesonagens, não deixando o index passar da  quantia de personagens.
     const visibleItems = [...heroes, ...heroes].slice(
       indexInArrayScope,
       indexInArrayScope + 3,
@@ -53,9 +59,40 @@ const Carousel = ({ heroes, activedId }: IProps) => {
     };
   }, [visibleItems]);
 
+  const { voicesAudio, transitionAudios } = useAudioResources(visibleItems, enPosition);
+
   const hangleChangeActiveIndex = (newDirection: number) => {
     setactiveIndex((prevActiveIndex) => prevActiveIndex + newDirection);
   };
+
+  const handleChangeDragTouch = (clientX: number) => {
+    const endInteractionPosition = clientX;
+    const difPositions = endInteractionPosition - startInteractionPosition;
+  
+    const newPOsition = difPositions > 0 ? -1 : 1;
+    
+    hangleChangeActiveIndex(newPOsition);
+  };
+  
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    setStartInteractionPosition(e.touches[0].clientX)
+  };
+  
+  const handleTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
+    if(!setStartInteractionPosition) return;
+
+    handleChangeDragTouch(e.changedTouches[0].clientX);
+  };
+
+  const handleDragStart = (e: React.DragEvent<HTMLDivElement>) => {
+    setStartInteractionPosition(e.clientX)
+  };
+  
+  const handleDragEnd = (e: React.DragEvent<HTMLDivElement>)=>{
+    if(!setStartInteractionPosition) return;    
+    handleChangeDragTouch(e.clientX);
+  };
+
 
   if (!visibleItems) return null;
 
@@ -64,7 +101,10 @@ const Carousel = ({ heroes, activedId }: IProps) => {
       <div className={styles.carousel}>
         <div
           className={styles.wrapper}
-          onClick={() => hangleChangeActiveIndex(1)}
+          onDragStart={handleDragStart}
+          onDragEnd={handleDragEnd}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
         >
           <AnimatePresence mode="popLayout">
             {visibleItems.map((item, position) => (

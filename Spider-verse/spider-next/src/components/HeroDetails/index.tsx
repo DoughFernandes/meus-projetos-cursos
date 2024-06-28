@@ -24,9 +24,15 @@ const HeroDetails = ({ data }: IProps) => {
           {name} - Universo
           ({universe})
         </h1>
-        <section className={styles.details}>
-          <h2 className={styles.subtitle}>Informações</h2>
-          <table className={styles.table}>
+        <table className={styles.details}>
+          <thead className={styles.subtitle}>
+            <tr>
+              <td>
+                Informações
+              </td>
+            </tr>
+          </thead>
+          <tbody className={styles.table}>
             <tr>
               <td className={styles.label}>Nome Completo</td>
               <td>{details.fullName}</td>
@@ -47,8 +53,8 @@ const HeroDetails = ({ data }: IProps) => {
               <td className={styles.label}>Peso</td>
               <td>{details.weight}kg</td>
             </tr>
-          </table>
-        </section>
+          </tbody>
+        </table>
         <section className={styles.details}>
           <h2 className={styles.subtitles}>Primeira Aparição</h2>
           <figure className={styles.figure}>
