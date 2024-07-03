@@ -1,9 +1,16 @@
-import Image from "next/image";
+import React from 'react';
+import ListHero from "@/components/ListHero";
+import useHeroes from "@/hooks/getHeros";
 
-export default function Home() {
+const Home = () => {
+  const { dataHeroes }: any = useHeroes;
+  console.log(dataHeroes);
+
   return (
     <main>
-      Hello world      
+      <ListHero heroes={dataHeroes}/>     
     </main>
   );
 }
+
+export default Home;

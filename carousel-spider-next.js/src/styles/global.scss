@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+:root {
+  height: 100vh;
+  min-width: 412px;
+
+  &::before {
+    content: "";
+    background: $background;
+    height: 100%;
+    width: 100%;
+    min-width: 412px;
+    position: absolute;
+    top: 0;
+  }
+}
+
+body {
+  position: relative;
+  color: $text-color;
+  margin: auto;
+  max-width: $max-width;
+  min-width: 412px;
+  height: calc(100vh - 3.5rem);
+  overflow: hidden;
+}

@@ -1,0 +1,23 @@
+.header{
+  width: 100%;
+  min-width: 412px;
+  height: 3.5rem;
+  z-index: 4;
+}
+
+.figure {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+
+  img {
+    cursor: pointer;
+    transition: .1s linear;
+  }
+
+  img:hover{
+    transform: scale(1.1)
+  }
+};
